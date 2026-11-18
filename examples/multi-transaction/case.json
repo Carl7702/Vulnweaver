@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0",
+  "case_id": "golden-multi-transaction",
+  "source": "controlled-example-foundry",
+  "split": "unassigned",
+  "project_id": "golden-multi-transaction",
+  "attack_family": "authorization_to_asset_flow",
+  "finding": {
+    "finding_id": "golden-multi-transaction-finding",
+    "title": "Unauthorized keeper takeover enables treasury sweep",
+    "vulnerability_type": "authorization",
+    "severity": "high",
+    "report": "An arbitrary caller can become keeper and sweep the local treasury.",
+    "root_cause": "The keeper setter omits owner authorization.",
+    "affected_functions": [
+      "setKeeper(address)",
+      "sweep(address,uint256)"
+    ]
+  },
+  "Ev": {
+    "environment_id": "golden-multi-transaction-ev",
+    "kind": "vulnerable",
+    "repository": "examples/multi-transaction/environments/ev",
+    "commit": "0000000000000000000000000000000000000001",
+    "chain": "local",
+    "chain_id": 31337,
+    "fork_block": 0,
+    "foundry_version": "1.3.1",
+    "solc_version": "0.8.24+commit.e11b9ed9",
+    "rpc_alias": null,
+    "patch_files": [],
+    "settings": {
+      "compose_workspace": true,
+      "context": {
+        "attacker": "0xbeef",
+        "owner": "deployer"
+      }
+    }
+  },
+  "Er": {
+    "environment_id": "golden-multi-transaction-er",
+    "kind": "root_cause_neutralized",
+    "repository": "examples/multi-transaction/environments/er",
+    "commit": "0000000000000000000000000000000000000001",
+    "chain": "local",
+    "chain_id": 31337,
+    "fork_block": 0,
+    "foundry_version": "1.3.1",
+    "solc_version": "0.8.24+commit.e11b9ed9",
+    "rpc_alias": null,
+    "patch_files": [],
+    "settings": {
+      "compose_workspace": true,
+      "context": {
+        "attacker": "0xbeef",
+        "owner": "deployer"
+      }
+    }
+  },
+  "Ep": null,
+  "obligations": [
+    {
+      "obligation_id": "setup",
+      "kind": "setup",
+      "description": "The attacker starts without keeper authority",
+      "predicate": {
+        "template": "compare",
+        "parameters": {
+          "left_path": "context.attacker",
+          "right_path": "context.owner",
+          "operator": "ne"
+        }
+      }
+    },
+    {
+      "obligation_id": "trigger",
+      "kind": "trigger",
+      "description": "The multi-step keeper takeover path executes",
+      "predicate": {
+        "template": "trace_call",
+        "parameters": {
+          "match": {
+            "target": "vault",
+            "selector": "0x748747e6"
+          }
+        }
+      }
+    },
+    {
+      "obligation_id": "violation",
+      "kind": "violation",
+      "description": "An unauthorized caller becomes keeper",
+      "predicate": {
+        "template": "storage_transition",
+        "parameters": {
+          "target": "vault",
+          "key": "0x1",
+          "after": "0xbeef"
+        }
+      }
+    },
+    {
+      "obligation_id": "impact",
+      "kind": "impact",
+      "description": "The attacker receives the fixture treasury balance",
+      "predicate": {
+        "template": "delta",
+        "parameters": {
+          "before_path": "before.storage.vault.0x3",
+          "after_path": "after.storage.vault.0x3",
+          "operator": "ge",
+          "threshold": 1000
+        }
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "state_preparation",
+      "description": "Run state_preparation specialist",
+      "required_role": "state_preparation",
+      "prerequisites": [],
+      "produces": []
+    },
+    {
+      "task_id": "authorization",
+      "description": "Run authorization specialist",
+      "required_role": "authorization",
+      "prerequisites": [
+        "state_preparation"
+      ],
+      "produces": []
+    },
+    {
+      "task_id": "asset_flow",
+      "description": "Run asset_flow specialist",
+      "required_role": "asset_flow",
+      "prerequisites": [
+        "state_preparation"
+      ],
+      "produces": []
+    },
+    {
+      "task_id": "dependency",
+      "description": "Run dependency specialist",
+      "required_role": "dependency",
+      "prerequisites": [
+        "state_preparation"
+      ],
+      "produces": []
+    },
+    {
+      "task_id": "poc_builder",
+      "description": "Run poc_builder specialist",
+      "required_role": "poc_builder",
+      "prerequisites": [
+        "state_preparation"
+      ],
+      "produces": []
+    },
+    {
+      "task_id": "execution_diagnosis",
+      "description": "Run execution_diagnosis specialist",
+      "required_role": "execution_diagnosis",
+      "prerequisites": [
+        "state_preparation"
+      ],
+      "produces": []
+    }
+  ],
+  "allowed_operations": {
+    "state_preparation": [
+      "inspect_local_fixture"
+    ],
+    "authorization": [
+      "model_caller_constraints"
+    ],
+    "asset_flow": [
+      "set_bounded_impact"
+    ],
+    "dependency": [
+      "order_dependent_calls"
+    ],
+    "poc_builder": [
+      "write_candidate_test"
+    ],
+    "execution_diagnosis": [
+      "compile_and_run_candidate"
+    ]
+  },
+  "budget": {
+    "model_calls": 20,
+    "input_tokens": 65536,
+    "output_tokens": 24576,
+    "candidate_pocs": 4,
+    "evm_executions": 12,
+    "scheduling_decisions": 24,
+    "wall_clock_seconds": 900
+  },
+  "inputs": [],
+  "reference_poc": null,
+  "conversion_log": []
+}

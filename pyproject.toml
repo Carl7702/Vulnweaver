@@ -1,0 +1,64 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vulnweaver"
+version = "0.1.0"
+description = "Reproducible multi-agent construction and causal validation of smart-contract vulnerability PoCs"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = { text = "Apache-2.0" }
+authors = [{ name = "VulnWeaver contributors" }]
+dependencies = [
+  "click==8.1.8",
+  "httpx==0.28.1",
+  "pydantic==2.10.4",
+  "typer==0.15.1",
+]
+
+[project.optional-dependencies]
+train = [
+  "gymnasium==1.0.0",
+  "ray[rllib]==2.40.0",
+  "torch==2.5.1",
+]
+dev = [
+  "mypy==1.14.1",
+  "pytest==8.3.4",
+  "pytest-cov==6.0.0",
+  "ruff==0.8.4",
+]
+
+[project.scripts]
+vw = "vulnweaver.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vulnweaver"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+cache-dir = ".local/cache/ruff"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "RUF"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+packages = ["vulnweaver"]
+cache_dir = ".local/cache/mypy"
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers"
+testpaths = ["tests"]
+cache_dir = ".local/cache/pytest"
+markers = [
+  "integration: requires Docker and the pinned Foundry image",
+]
+
+[tool.coverage.run]
+source = ["vulnweaver"]
+data_file = ".local/cache/coverage"
+
