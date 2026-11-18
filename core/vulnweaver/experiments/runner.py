@@ -326,7 +326,7 @@ def _invoke_offline_model(
     return response
 
 
-def _write_candidate(
+def _write_protocol_marker(
     directory: Path,
     method: ExperimentMethod,
     case: ExperimentCase,
@@ -335,18 +335,18 @@ def _write_candidate(
     pocforge_source: Path | None,
 ) -> None:
     directory.mkdir(parents=True, exist_ok=True)
-    # This is a verifier-facing placeholder.  It contains no target source,
-    # reference PoC, transaction hash, or RPC endpoint.
+    # Offline replay does not execute candidate code. This marker binds the
+    # profiled method and model response without resembling a usable PoC.
     provenance = "available" if pocforge_source is not None else "not_supplied"
     payload = (
-        "// VulnWeaver offline candidate\n"
+        "// VulnWeaver offline protocol marker; not executable candidate code.\n"
         f"// method={method.value}\n"
         f"// case_id={case.case_id}\n"
         f"// baseline_source={provenance}\n"
         f"// plan_digest={stable_hash(model_response)}\n"
-        "contract OfflineCandidate {}\n"
+        "contract OfflineProtocolMarker {}\n"
     )
-    (directory / "Candidate.t.sol").write_text(payload, encoding="utf-8")
+    (directory / "ProtocolMarker.sol").write_text(payload, encoding="utf-8")
 
 
 def _run_one(
@@ -379,7 +379,7 @@ def _run_one(
     candidate_dir = output / "candidates" / method.value / case.case_id
     try:
         response = _invoke_offline_model(backend, method, case_ref, profile.model_calls)
-        _write_candidate(
+        _write_protocol_marker(
             candidate_dir,
             method,
             case_ref,
@@ -615,8 +615,8 @@ def write_experiment_summary(path: Path, run: ExperimentRun) -> None:
         f"Mode: `{run.evaluation_mode}`; backend: `{run.model_backend}`; "
         f"resource accounting: `{run.resource_accounting}`.",
         "",
-        "These are protocol smoke results from shared replay evidence. Candidates are "
-        "placeholders, method differences are accounting profiles, and resource counts "
+        "These are protocol simulation results from shared replay evidence. Candidate "
+        "code is not executed, method differences are accounting profiles, and resource counts "
         "are prescribed rather than measured token or live EVM usage. Latency measures "
         "local replay processing. Model performance and reward efficacy require live runs.",
         "",

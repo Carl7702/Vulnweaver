@@ -65,6 +65,20 @@ def main() -> None:
         raise SystemExit(f"published datasets contain test/PoC-like source: {unsafe_sources[0]}")
 
     inventory = json.loads((DATASETS / "checksums.json").read_text(encoding="utf-8"))
+    listed_paths = {item["path"] for item in inventory}
+    if len(listed_paths) != len(inventory):
+        raise SystemExit("checksum inventory contains duplicate paths")
+    actual_paths = {
+        path.relative_to(DATASETS).as_posix()
+        for path in DATASETS.rglob("*")
+        if path.is_file() and path.name != "checksums.json"
+    }
+    if listed_paths != actual_paths:
+        missing = sorted(listed_paths - actual_paths)
+        unlisted = sorted(actual_paths - listed_paths)
+        raise SystemExit(
+            f"checksum inventory mismatch: missing={missing[:1]}, unlisted={unlisted[:1]}"
+        )
     for item in inventory:
         path = DATASETS / item["path"]
         if (

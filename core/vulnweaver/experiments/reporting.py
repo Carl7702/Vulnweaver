@@ -318,9 +318,9 @@ def write_report(output: Path, report: ExperimentReport) -> None:
         f"resampling unit: `{report.resampling_unit}`.",
         f"Mode: `{report.evaluation_mode}`; resource accounting: `{report.resource_accounting}`.",
         "",
-        "Protocol smoke results use shared replay evidence and placeholder candidates. "
-        "Resource counts follow prescribed profiles; latency measures local replay processing. "
-        "The table supports protocol validation; model and reward comparisons require live runs.",
+        "Protocol simulation results use shared replay evidence; candidate code is not executed. "
+        "Resource counts follow prescribed profiles and latency measures local replay processing. "
+        "The table validates the protocol path; model and reward comparisons require live runs.",
         "",
         "## Point estimates",
         "",
