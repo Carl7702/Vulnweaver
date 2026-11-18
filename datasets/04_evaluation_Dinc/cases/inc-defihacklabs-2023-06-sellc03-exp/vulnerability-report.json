@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-06-sellc03-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-06/SELLC03_exp.sol",
+  "source_sha256": "ae2b72b7d2e66899fef27883cadf4354f6a2f5723f5583ae3ac743830136b3eb",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "sellc03",
+  "attack_family": "oracle+deflationary-token+flash-loan+accounting",
+  "incident_month": "2023-06",
+  "fixed_fork_block": 29005754,
+  "attack_tx_hash": "0xe968e648b2353cea06fc3da39714fb964b9354a1ee05750a3c5cc118da23444b",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "48cf6494e019649010f5a946ac25b4bdfa05f79868b689ce287bbb58927fcf57"
+}

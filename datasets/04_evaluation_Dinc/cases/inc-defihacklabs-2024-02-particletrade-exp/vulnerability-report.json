@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2024-02-particletrade-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2024-02/ParticleTrade_exp.sol",
+  "source_sha256": "a9ac3d0b2d200448dacf1c123d34b573cb86b3bed686b4afb90e8d3ac4bd99b4",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "particletrade",
+  "attack_family": "upgrade+price-manipulation+accounting",
+  "incident_month": "2024-02",
+  "fixed_fork_block": 19231445,
+  "attack_tx_hash": "0xd9b3e229acc755881890394cc76fde0d7b83b1abd4d046b0f69c1fd9fd495ff6",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "a9ca4939814ba7a8d62babe59b3e4af03a45811e60dba9a3db2c110a8d317a7f"
+}

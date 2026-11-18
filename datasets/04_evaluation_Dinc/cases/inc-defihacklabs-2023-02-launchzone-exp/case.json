@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-02-launchzone-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-02/LaunchZone_exp.sol",
+  "source_sha256": "0bdce8584698f823cfad18176291f8fc3720a0caa5df62b15697bc1e67c8bcf1",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "launchzone",
+  "attack_family": "approval+upgrade+accounting",
+  "incident_month": "2023-02",
+  "fixed_fork_block": 26024419,
+  "attack_tx_hash": "0xaee8ef10ac816834cd7026ec34f35bdde568191fe2fa67724fcf2739e48c3cae",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "c961a3507bd06674acad1b904c9900ac5b4f1f9e26b4ee6d46bbfb3273700386"
+}

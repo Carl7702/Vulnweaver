@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-65c6f8e20010463a-f3",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/BlockSec-blocksec_alpaca_v1.0_signed.pdf.json",
+  "source_sha256": "71446c8070bedb1596371dbd8c5a0097627a9a0baf77778ba556e7d22dec1c2d",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/alpaca-finance/bsc-alpaca-contract",
+  "attack_family": "CWE-284+CWE-285+CWE-862",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 3; severity high",
+    "project commit: e7c3899416e86a045011febec7a5cc986176e406",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "094c510f9c4cf658c9605b4dae0f34f515280b76042671d348587ccba6264cf6"
+}

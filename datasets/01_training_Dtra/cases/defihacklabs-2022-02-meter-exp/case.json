@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-02-meter-exp",
+  "source_file": "src/test/2022-02/Meter_exp.sol",
+  "source_sha256": "1fa45f12f9bb35c690715e5ee731bb5831e470ff4a26697726948165036d372d",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-02",
+  "project_id": "meter",
+  "attack_family": "signature",
+  "fork": {
+    "network": "moonriver",
+    "block": 1442490
+  },
+  "attack_tx_hash": "0x5a87c24d0665c8f67958099d1ad22e39a03aa08d47d00b7276b8d42294ee0591",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "2447c28602ca8fa0777fafc1e1b412eb40522e55964961b30209ea6331633f98"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-06-inversefinance-exp",
+  "source_file": "src/test/2022-06/InverseFinance_exp.sol",
+  "source_sha256": "92de15942a86b0858c87ac358814cdf26af8d69e7cf11dc77a4100b392baeb0e",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-06",
+  "project_id": "inversefinance",
+  "attack_family": "flash-loan+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 14972418
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "d25c025075730ca7bcab2fec33729b6b8588f52253fa0585a36bcfff02c4423c"
+}

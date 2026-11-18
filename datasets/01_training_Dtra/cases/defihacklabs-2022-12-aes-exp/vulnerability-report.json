@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-12-aes-exp",
+  "source_file": "src/test/2022-12/AES_exp.sol",
+  "source_sha256": "6b85507c22b0b21851636adf39b57479f062cb88431396c519f483fbbf958300",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-12",
+  "project_id": "aes",
+  "attack_family": "deflationary-token+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 23695904
+  },
+  "attack_tx_hash": "0xca4d0d24aa448329b7d4eb81be653224a59e7b081fc7a1c9aad59c5a38d0ae19",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "57daf25eab3a05a7cc76b13188b28b6770da7c5309e9554abebdcd8de9ddad5b"
+}

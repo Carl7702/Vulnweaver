@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-5d617bc2385d9d40-f1",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/BlockSec-blocksec_arken_v1.0-signed.pdf.json",
+  "source_sha256": "fbe49fd62a18e93e2fa8805a90c8407450d7fdaa7f1fffb1d7d39889645dd3d6",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/arken-lab/arken-swap-protocol",
+  "attack_family": "CWE-284+CWE-285+CWE-862",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 1; severity high",
+    "project commit: b524132b67fbc2922f4d6ccda3483e8f10ad60e7",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "5ce73ef55a05a4cd8249493584e0807b472fb8afea5b49a9661c7b0892c1c8af"
+}

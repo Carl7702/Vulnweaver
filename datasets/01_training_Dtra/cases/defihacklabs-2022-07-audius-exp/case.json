@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-07-audius-exp",
+  "source_file": "src/test/2022-07/Audius_exp.sol",
+  "source_sha256": "013293e3055b0e8798f71e8b28b5be0a6866845b464b7a1b6d742a5916d553fc",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-07",
+  "project_id": "audius",
+  "attack_family": "signature+governance+upgrade+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15201793
+  },
+  "attack_tx_hash": "0xfefd829e246002a8fd061eede7501bccb6e244a9aacea0ebceaecef5d877a984",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "2a3a7b3abeff09ee2575809d8f2cb21c283846e5022b7a8bcf73acca84b36e63"
+}

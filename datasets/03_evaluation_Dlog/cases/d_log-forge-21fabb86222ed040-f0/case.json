@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-21fabb86222ed040-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/KICKTOKEN-audit-report.pdf.json",
+  "source_sha256": "12acc49ba917822da6ca9a1f1c7160ffec8c0193a53b2ff028e010e25457bf2c",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/peppersec/public-audit-reports",
+  "attack_family": "CWE-404+CWE-459+CWE-664",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: 8d864a16877f4050c7d41de62049c127852a6dec",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "d57d8f56c68cf4e81e96e1be9853dbcb9cac847a42d53cac1fe6a767c906367b"
+}

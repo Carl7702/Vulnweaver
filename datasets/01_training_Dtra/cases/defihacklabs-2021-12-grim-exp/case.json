@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-12-grim-exp",
+  "source_file": "src/test/2021-12/Grim_exp.sol",
+  "source_sha256": "08c61f4c748481e7f6ac278220e858d7a78d0ff02327f1a0b217e0b961a401fb",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-12",
+  "project_id": "grim",
+  "attack_family": "reentrancy+flash-loan+accounting",
+  "fork": {
+    "network": "fantom",
+    "block": 25345002
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "d580310f61a49c0b71083087a6d7915a65f8a9ff3f88fafdb8d86db44023c864"
+}

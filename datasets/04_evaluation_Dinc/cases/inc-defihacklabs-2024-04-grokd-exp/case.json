@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2024-04-grokd-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2024-04/GROKD_exp.sol",
+  "source_sha256": "b42f83c24e4f54c0d49ea2ccf901619abae1439be5a0da54672234c7b1fa508d",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "grokd",
+  "attack_family": "access-control+deflationary-token+price-manipulation+accounting",
+  "incident_month": "2024-04",
+  "fixed_fork_block": 37622476,
+  "attack_tx_hash": "0x383dbb44a91687b2b9bbd8b6779957a198d114f24af662776f384569b84fc549",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "2d67515560e1bb401de9d408748d9a6a57aa4cc5c21dacf049478ebf7bf3d45c"
+}

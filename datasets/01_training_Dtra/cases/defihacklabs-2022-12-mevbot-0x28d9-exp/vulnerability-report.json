@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-12-mevbot-0x28d9-exp",
+  "source_file": "src/test/2022-12/MEVbot_0x28d9_exp.sol",
+  "source_sha256": "6c648f81cb7f1754c403b8f67feba12234ba3ad647e8dcca97941cf0b74b6198",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-12",
+  "project_id": "mevbot-0x28d9",
+  "attack_family": "flash-loan+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 16157842
+  },
+  "attack_tx_hash": "0x313d23bdd9277717e3088f32c976479c09d4b8a94d5d94deb835d157fd0850ce",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "fb758d7d936efc726d4e3085506664d74b83a9b30276b8bb5611d56a6a65783e"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-11-mbc-zzsh-exp",
+  "source_file": "src/test/2022-11/MBC_ZZSH_exp.sol",
+  "source_sha256": "6080b5b6c578786848e7694c8582f67420c817394c611fd1f3785c311660f1d8",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-11",
+  "project_id": "mbc-zzsh",
+  "attack_family": "price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 23474460
+  },
+  "attack_tx_hash": "0xdc53a6b5bf8e2962cf0e0eada6451f10956f4c0845a3ce134ddb050365f15c86",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "2406af5ef855444c10dd185bfd1b4e0575390f2b4559ec6bec3477fa33484004"
+}

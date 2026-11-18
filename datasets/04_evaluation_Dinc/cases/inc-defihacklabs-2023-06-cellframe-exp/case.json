@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-06-cellframe-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-06/Cellframe_exp.sol",
+  "source_sha256": "2a79592180895132487bd55779dca357c6acb8b71efb5e6705cc22df189c816b",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "cellframe",
+  "attack_family": "oracle+deflationary-token+price-manipulation+flash-loan+accounting",
+  "incident_month": "2023-06",
+  "fixed_fork_block": 28708273,
+  "attack_tx_hash": "0x943c2a5f89bc0c17f3fe1520ec6215ed8c6b897ce7f22f1b207fea3f79ae09a6",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "a3a238e52fa7655dd6f95b75a603f406cd0c03962efa0bcbf1ab41f080bf1af3"
+}

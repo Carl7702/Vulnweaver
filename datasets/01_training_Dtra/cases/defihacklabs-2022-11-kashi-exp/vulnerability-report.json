@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-11-kashi-exp",
+  "source_file": "src/test/2022-11/Kashi_exp.sol",
+  "source_sha256": "b0759add9268488680a4391f9c9dc070b75dca796dc6ebf63749d088e88ca367",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-11",
+  "project_id": "kashi",
+  "attack_family": "approval+flash-loan+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15928289
+  },
+  "attack_tx_hash": "0x3d163bfbec5686d428a6d43e45e2626a220cc4fcfac7620c620b82c1f2537c78",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "2d3b511bf5556af842cda53ed2272e0a4923c6385f021fe392262c9b33e0ac68"
+}

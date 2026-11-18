@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-11-annex-exp",
+  "source_file": "src/test/2022-11/Annex_exp.sol",
+  "source_sha256": "41dace566c4fb2fb77cbf2d60312d110abd5727166929d830b9217aba7fd8e22",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-11",
+  "project_id": "annex",
+  "attack_family": "approval+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 23165446
+  },
+  "attack_tx_hash": "0x3757d177482171dcfad7066c5e88d6f0f0fe74b28f32e41dd77137cad859c777",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "dbf5132d2a0690802ec2195818c70b2e5a605c95a0550fe5517a3ed92255150c"
+}

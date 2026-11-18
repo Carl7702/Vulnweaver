@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-03-dkp-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-03/DKP_exp.sol",
+  "source_sha256": "349a55e67ecf7790242c2483a5ccaa5fadbb44a11677da60cd56505031181b22",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "dkp",
+  "attack_family": "oracle+deflationary-token+price-manipulation+flash-loan+accounting",
+  "incident_month": "2023-03",
+  "fixed_fork_block": 26284131,
+  "attack_tx_hash": "0x0c850f54c1b497c077109b3d2ef13c042bb70f7f697201bcf2a4d0cb95e74271",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "3d11cd2239a49c92c22eed860217abab9669ba79937f3c208d5e44a6f8923c5d"
+}

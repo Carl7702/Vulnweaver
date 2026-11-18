@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-eflevervault-exp",
+  "source_file": "src/test/2022-10/EFLeverVault_exp.sol",
+  "source_sha256": "4f778930b29683db2a721ee976fbb50045b2379d50dad1ca319e12a6283c105c",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "eflevervault",
+  "attack_family": "oracle+flash-loan+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15746199
+  },
+  "attack_tx_hash": "0x1f1aba5bef04b7026ae3cb1cb77987071a8aff9592e785dd99860566ccad83d1",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "a66cfd90c354ab6ddce41509353c1ef5465e4c3d6f9fcebd83cf6fb1f6721133"
+}

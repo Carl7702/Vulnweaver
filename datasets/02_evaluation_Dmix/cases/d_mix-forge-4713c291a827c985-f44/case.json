@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-4713c291a827c985-f44",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/Dragonereum-audit-report.pdf.json",
+  "source_sha256": "3f50cf24f0363335671bab0f8687b61a9cc570c0c01d764a88ea64d1a798cb39",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/dragonereum/dragonereum-contracts",
+  "attack_family": "CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 44; severity critical",
+    "project commit: 2faadda1e23156141b4265c4c8ce878a5c8d9b08",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "d95cb4ed734ce48385c415005505d3a4de5cc7dd1bd778d2bd3ebe919348d49b"
+}

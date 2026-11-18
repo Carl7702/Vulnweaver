@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2024-07-minterest-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2024-07/Minterest_exp.sol",
+  "source_sha256": "7387a6821bdebc467b4dd5e6d6dab5923e7ab3157d16314f6c6219f21d8fe455",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "minterest",
+  "attack_family": "signature+upgrade+flash-loan+accounting",
+  "incident_month": "2024-07",
+  "fixed_fork_block": 66416576,
+  "attack_tx_hash": "0xb3c4c313a8d3e2843c9e6e313b199d7339211cdc70c2eca9f4d88b1e155fd6bd",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "13cf7a4c1ee997e9fb78cacdbcff69df77af6637266e95a808fd20d27abe0de7"
+}

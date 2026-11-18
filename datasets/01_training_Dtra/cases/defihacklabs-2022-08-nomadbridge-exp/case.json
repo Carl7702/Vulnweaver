@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-08-nomadbridge-exp",
+  "source_file": "src/test/2022-08/NomadBridge_exp.sol",
+  "source_sha256": "6d18e0ae0f31569b695279bd4f1cf5d1a46ee3385e9a720dec12b2f354c9121b",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-08",
+  "project_id": "nomadbridge",
+  "attack_family": "bridge+upgrade+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15259100
+  },
+  "attack_tx_hash": "0x53fd92771d2084a9bf39a6477015ef53b7f116c79d98a21be723d06d79024cad",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "e379ce00c699c939e5b8b368c15ff65cc633e81cae76c4bc0753c1114c23927d"
+}

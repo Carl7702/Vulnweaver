@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-09-zoomprofinance-exp",
+  "source_file": "src/test/2022-09/ZoomproFinance_exp.sol",
+  "source_sha256": "cc0159d2b8782a8951770cc4700c006711ba88ac5e2c4be5c73aa16ae1c8ed8e",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-09",
+  "project_id": "zoomprofinance",
+  "attack_family": "price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 21055930
+  },
+  "attack_tx_hash": "0xe176bd9cfefd40dc03508e91d856bd1fe72ffc1e9260cd63502db68962b4de1a",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "f5cf633de9955693dd9cc1c5be2595630d50585d49655d858a651ebc279b06a9"
+}

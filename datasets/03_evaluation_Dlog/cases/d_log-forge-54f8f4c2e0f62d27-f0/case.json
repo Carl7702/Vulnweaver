@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-54f8f4c2e0f62d27-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/SCA-Final-Report-Hacken_XPower_Jan_10th_2024.pdf.json",
+  "source_sha256": "d7c6bbbac8b75954449cb9d16f8407843de4353369c8e6208ef7db04e2ce9adb",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/blackhan-software/xpower-hh",
+  "attack_family": "CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: bd660e12ee394e736d1a65f4d2282ed16df21756",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "8dc7ffc8098c6b9901ab052a0f13e186933eafbf146306afbf2e832eb315d796"
+}

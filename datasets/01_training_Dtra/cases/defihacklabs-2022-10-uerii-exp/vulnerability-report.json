@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-uerii-exp",
+  "source_file": "src/test/2022-10/Uerii_exp.sol",
+  "source_sha256": "fc2b2832931f23d1e4a67c2b73525b8d08c42b2d19c002a9b253651d298e2b50",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "uerii",
+  "attack_family": "access-control+price-manipulation+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15767837
+  },
+  "attack_tx_hash": "0xf4a3d0e01bbca6c114954d4a49503fc94dfdbc864bded5530b51a207640d86b5",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "692330ab8eb9f01c4fcb82b40729e69ba3c967b23ac5e54c4f3952fe11d5decc"
+}

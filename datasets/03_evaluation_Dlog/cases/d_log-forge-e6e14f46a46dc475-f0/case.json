@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-e6e14f46a46dc475-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/ConsenSys_Diligence-Bancor_V2_AMM_Security_Audit.pdf.json",
+  "source_sha256": "f58bad17dc8e952e65d904460d3e7ce64164001fa9b6a4bec1322145b9fed315",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/bancorprotocol/contracts-solidity",
+  "attack_family": "CWE-435",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: 4ffec698485bc34128ada6015e76e1b2fdf3a884",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "20320df946970675af947a6010a03304ccb3df5f5877dc17d96afede1544b4ac"
+}

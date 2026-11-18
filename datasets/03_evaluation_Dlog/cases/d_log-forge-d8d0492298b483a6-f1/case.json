@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-d8d0492298b483a6-f1",
+  "dataset": "D_log",
+  "source_file": "dataset/results/BuskerLtd_Review_And_Security_Analysis_Report_07122023_SA-2019.pdf.json",
+  "source_sha256": "ad132bf7983b520d24a6f24afde8376bb864615a46e7ff2a4ab1691b22e580ca",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/projectopensea/operator-filter-registry",
+  "attack_family": "CWE-1265+CWE-691",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 1; severity critical",
+    "project commit: v1.3.1",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "1896d0385632708994995681e06308441321217dcb1e8aa21964880e5e6b8c5c"
+}

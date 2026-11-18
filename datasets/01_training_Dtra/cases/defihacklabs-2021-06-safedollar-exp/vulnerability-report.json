@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-06-safedollar-exp",
+  "source_file": "src/test/2021-06/SafeDollar_exp.sol",
+  "source_sha256": "55394bc7c4189f27e029a4da3629120efda9c515829c1d112b9fc852852bac29",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-06",
+  "project_id": "safedollar",
+  "attack_family": "overflow+signature+deflationary-token+price-manipulation+accounting",
+  "fork": {
+    "network": "polygon",
+    "block": 16225172
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "ddf2517c551f12673eab803ae333b7a35400e8a808c19f288c2fb996989abad7"
+}

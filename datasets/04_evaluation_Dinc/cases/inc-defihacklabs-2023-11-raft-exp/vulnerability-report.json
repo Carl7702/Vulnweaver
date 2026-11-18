@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-11-raft-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-11/Raft_exp.sol",
+  "source_sha256": "3f5ed219e7f2d33caf93d5c31146f09d6fafab984a7a1f1c4785f42b35fdea58",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "raft",
+  "attack_family": "oracle+rounding+signature+price-manipulation+flash-loan+accounting",
+  "incident_month": "2023-11",
+  "fixed_fork_block": 18543485,
+  "attack_tx_hash": "0xfeedbf51b4e2338e38171f6e19501327294ab1907ab44cfd2d7e7336c975ace7",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "bdd2b3a993481e53accee9c8bcd1fa61a01ecd724f0719c5611b2abf878982c7"
+}

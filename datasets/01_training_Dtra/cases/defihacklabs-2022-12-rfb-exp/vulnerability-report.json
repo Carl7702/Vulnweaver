@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-12-rfb-exp",
+  "source_file": "src/test/2022-12/RFB_exp.sol",
+  "source_sha256": "a35a52a850dbf8b99ab19ad4839880944fb4aba96f3b11052d18d8818aeb18bf",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-12",
+  "project_id": "rfb",
+  "attack_family": "deflationary-token+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 23649423
+  },
+  "attack_tx_hash": "0xcc8fdb3c6af8bb9dfd87e913b743a13bbf138a143c27e0f387037887d28e3c7a",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "8bd1a5b212c169139b02573b594a1dfff1e3f71fd53e9cfe3d7b2346ac90b99e"
+}

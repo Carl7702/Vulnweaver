@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-04-wdoge-exp",
+  "source_file": "src/test/2022-04/Wdoge_exp.sol",
+  "source_sha256": "d9cb2b059b7abda257ee1c30a35a3ef9df6ab502a4a3db6886ca2e651f80b1f0",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-04",
+  "project_id": "wdoge",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 17248705
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "cdbbd99040dbdff6113b535f13de7ee6e078b56230655dca212b782227c41dcc"
+}

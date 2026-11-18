@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-6ba5d8b9174e7e21-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/LiquidCollective-Spearbit-Security-Review.pdf.json",
+  "source_sha256": "7d0e5bbc4acdeacda654c38b9224c3e378898221f78acc9ad5f97db56afbf567",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/river-protocol/river-contracts",
+  "attack_family": "CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: 778d71c5c2b0bb7d430b60df72b4d65173ebee6a",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "c6cb1c133749a3d27bacb1ce14dbb5466659b2dc8b592eb5a96eea5d1a8fb8b2"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-05-pancakebunny-exp",
+  "source_file": "src/test/2021-05/PancakeBunny_exp.sol",
+  "source_sha256": "17527a36b6a4efc3128073faf89fc83d4b6bf377e23fd6be58df837559d4f51e",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-05",
+  "project_id": "pancakebunny",
+  "attack_family": "oracle+signature+price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 7556330
+  },
+  "attack_tx_hash": "0x88fcffc3256faac76cde4bbd0df6ea3603b1438a5a0409b2e2b91e7c2ba3371a",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "c050e86f6e183ab3245b3c99532c22f14a254e316a3f40176a86725c7c551515"
+}

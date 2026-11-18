@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-02-cowswap-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-02/CowSwap_exp.sol",
+  "source_sha256": "bfcb07c4ecb015afee4f392f4729c7aa04f9fdf4497a15a19aa55fcb76b8e89d",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "cowswap",
+  "attack_family": "signature+approval+price-manipulation+accounting",
+  "incident_month": "2023-02",
+  "fixed_fork_block": 16574048,
+  "attack_tx_hash": "0x90b468608fbcc7faef46502b198471311baca3baab49242a4a85b73d4924379b",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "4ce7a87ed40dad332cee41c2417068317a31556c673674eb4e93298f985cfe00"
+}

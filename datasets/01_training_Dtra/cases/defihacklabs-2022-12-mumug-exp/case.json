@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-12-mumug-exp",
+  "source_file": "src/test/2022-12/MUMUG_exp.sol",
+  "source_sha256": "a1129f1328d687b3232d69298ef661444fbfa1e58b3ef9c5915035b51d533dc2",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-12",
+  "project_id": "mumug",
+  "attack_family": "deflationary-token+flash-loan+accounting",
+  "fork": {
+    "network": "avalanche",
+    "block": 23435294
+  },
+  "attack_tx_hash": "0xab39a17cdc200c812ecbb05aead6e6f574712170eafbd73736b053b168555680",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "035fb80c5e337fd24cff06e3f36696efc28d4aafefad92b760ddbaf30848d5de"
+}

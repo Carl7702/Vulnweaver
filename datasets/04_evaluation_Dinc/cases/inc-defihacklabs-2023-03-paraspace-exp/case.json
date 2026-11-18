@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-03-paraspace-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-03/paraspace_exp.sol",
+  "source_sha256": "27c1e58db3705c217aedf93610b18bd7ce820d96e825ee6a78e73b63a6d5676c",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "paraspace",
+  "attack_family": "upgrade+price-manipulation+accounting",
+  "incident_month": "2023-03",
+  "fixed_fork_block": 16845558,
+  "attack_tx_hash": "0xe3f0d14cfb6076cabdc9057001c3fafe28767a192e88005bc37bd7d385a1116a",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "9fbe4e37f1fe3e054ce8b465ac6e650befb9f6439dcdcfaa48306e0fef2dda3a"
+}

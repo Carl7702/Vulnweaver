@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-02-buildf-exp",
+  "source_file": "src/test/2022-02/BuildF_exp.sol",
+  "source_sha256": "3a0e357ab6c8eb3b9532529806b56570e62d4850a4b3db8a41f287b28b17626d",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-02",
+  "project_id": "buildf",
+  "attack_family": "governance+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 14235712
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "d5548693518bfc6c620525c5a657d43e90ffa96d9d6e9df17f3dcbe77fb03e97"
+}

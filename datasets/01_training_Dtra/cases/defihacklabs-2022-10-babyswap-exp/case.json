@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-babyswap-exp",
+  "source_file": "src/test/2022-10/BabySwap_exp.sol",
+  "source_sha256": "16a6366093079df0ae62e56a5fe6feab735d3fc2eec4a6a61b071107a3796a69",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "babyswap",
+  "attack_family": "price-manipulation+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 21811979
+  },
+  "attack_tx_hash": "0xcca7ea9d48e00e7e32e5d005b57ec3cac28bc3ad0181e4ca208832e62aa52efe",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "e755bac64a16905c9072adf821f0285db79a26c930605faa4a62c8e64ec1ade3"
+}

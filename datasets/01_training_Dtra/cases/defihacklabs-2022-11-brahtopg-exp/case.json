@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-11-brahtopg-exp",
+  "source_file": "src/test/2022-11/BrahTOPG_exp.sol",
+  "source_sha256": "e7732fc16a03da22ff4dd22d15d72d5a10eda31967978ca81ed8ffdfd634ce9f",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-11",
+  "project_id": "brahtopg",
+  "attack_family": "signature+approval+deflationary-token+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15933794
+  },
+  "attack_tx_hash": "0xeaef2831d4d6bca04e4e9035613be637ae3b0034977673c1c2f10903926f29c0",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "45cfa5af2991e1eeac455fc2fc78d4248dc1cadf5d1e86b4e91a166a9777fe94"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-carrot-exp",
+  "source_file": "src/test/2022-10/Carrot_exp.sol",
+  "source_sha256": "e80c60e08c1ef8d2f72f89b838374e5fe7c2628c13476467f10e10956855e73d",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "carrot",
+  "attack_family": "access-control+approval+deflationary-token+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 22055611
+  },
+  "attack_tx_hash": "0xa624660c29ee97f3f4ebd36232d8199e7c97533c9db711fa4027994aa11e01b9",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "e36e982b9d99fcd2b08e4cc1df398627ced451c3db5a3cad77c91c62bd76ff42"
+}

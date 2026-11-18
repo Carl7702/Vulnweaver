@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2025-02-bybit-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2025-02/Bybit_exp.sol",
+  "source_sha256": "24df6430a21cd79f9c724f50d263804955cbd2efc077633b87a636a8e724d6d1",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "bybit",
+  "attack_family": "signature+upgrade+price-manipulation+accounting",
+  "incident_month": "2025-02",
+  "fixed_fork_block": 21895237,
+  "attack_tx_hash": "0x46deef0f52e3a983b67abf4714448a41dd7ffd6d32d32da69d62081c68ad7882",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "0349b1e7fe38a6c3bd0d9cc8bdaf2a72f37850828898efc6a671bc1f779150c6"
+}

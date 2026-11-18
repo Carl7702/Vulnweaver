@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-08-gss-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-08/GSS_exp.sol",
+  "source_sha256": "449cb644d3e0128a8690f114e5124dcd7e2f66e60891cee128b4c6962138e6f8",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "gss",
+  "attack_family": "oracle+deflationary-token+flash-loan+accounting",
+  "incident_month": "2023-08",
+  "fixed_fork_block": 31108558,
+  "attack_tx_hash": "0x4f8cb9efb3cc9930bd38af5f5d34d15ce683111599a80df7ae50b003e746e336",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "0da94377753eb9563d5672dbe08396bc76a350ff189096a5c4c11adbcd4248db"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-20aaf0e4d407355a-f3",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/Hacken-ASYAGRO.pdf.json",
+  "source_sha256": "f5d48745fec8d1102ea05aacd82104f976fe7d7f3c617f771e8b751e07013217",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/asyagro/asy",
+  "attack_family": "CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 3; severity critical",
+    "project commit: 7ed2ad0ba2de200ace36f9e21eb0ebcaa1e343ff",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "9f85a1a0d2d41b0b6e0aaafb7659a46f5c1d84a6527436bae1c38d6d4d3c9556"
+}

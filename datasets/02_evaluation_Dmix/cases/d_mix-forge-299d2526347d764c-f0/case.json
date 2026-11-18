@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-299d2526347d764c-f0",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/PeckShield-Audit-Report-DarkCrypto-v1.0.pdf.json",
+  "source_sha256": "dd75bd1a94a5a6294378490b677c921a10dcde3e8f3c4a4626388c73cab05913",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/darkcryptofinance/darkcrypto-contracts",
+  "attack_family": "CWE-693",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity high",
+    "project commit: 50197b101942a5c088e387d5d660410910df38b2",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "225e0586cdb5353dca5b289b658bf4069a1802b0dc3ab9b9458a839bb4542545"
+}

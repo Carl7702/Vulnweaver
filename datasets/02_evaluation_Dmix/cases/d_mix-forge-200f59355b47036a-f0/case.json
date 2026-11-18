@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-200f59355b47036a-f0",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/Coinspect - Smart Contract Audit - Exactly Protocol 2nd Audit V220822.pdf.json",
+  "source_sha256": "5d95e5614e01f26bea86764ed68f06345be7125263600ff17167d11c90b7b1dc",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/exactly-finance/protocol",
+  "attack_family": "CWE-400+CWE-664+CWE-770",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity high",
+    "project commit: 0685d9ecead2dfad32299d60c73165ef7c02ed87",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "c9eddb1c5459507ef4bcf9d53dfcbca4a3792a25f08ef1b24ffc85bce2ecf4f4"
+}

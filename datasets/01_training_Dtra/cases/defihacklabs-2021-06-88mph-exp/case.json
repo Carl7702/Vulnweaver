@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-06-88mph-exp",
+  "source_file": "src/test/2021-06/88mph_exp.sol",
+  "source_sha256": "0e68dfabcb32f73fc9e630a8d98e506f60f3155f1ebe941b8ca837113895172d",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-06",
+  "project_id": "88mph",
+  "attack_family": "other",
+  "fork": {
+    "network": "mainnet",
+    "block": 12516705
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "44831d4f85d5ddf0e7a9ddcc31abf77c0e9d50520c95fbef606e883c975e9e7d"
+}

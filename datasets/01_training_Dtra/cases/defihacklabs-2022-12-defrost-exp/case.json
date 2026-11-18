@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-12-defrost-exp",
+  "source_file": "src/test/2022-12/Defrost_exp.sol",
+  "source_sha256": "201564bbb779fb58412ca88b8f28311bfb5084d2d505510452183f6ada108b07",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-12",
+  "project_id": "defrost",
+  "attack_family": "flash-loan+accounting",
+  "fork": {
+    "network": "avalanche",
+    "block": 24003940
+  },
+  "attack_tx_hash": "0xc6fb8217e45870a93c25e2098f54f6e3b24674a3083c30664867de474bf0212d",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "78528ab0be702375275a84e9e3e672a67a06df76dcea5f946de59390b3588374"
+}

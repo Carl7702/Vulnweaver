@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2025-02-limitorderprotocol-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2025-02/LimitOrderProtocol_exp.sol",
+  "source_sha256": "a577729fbfb2680c785c31893f9ad52f87504b0a75853a51e7578becd46d7cf0",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "limitorderprotocol",
+  "attack_family": "approval+upgrade+accounting",
+  "incident_month": "2025-02",
+  "fixed_fork_block": 26231299,
+  "attack_tx_hash": "0xf16c30f57d6f47d68fe8ee6ed1986ed9c0d837b00750daef9c742c395b55d564",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "7e5bb1e8a4e7242824fd2033d94c705724a8a73b2f4db174cbea2b6604695ace"
+}

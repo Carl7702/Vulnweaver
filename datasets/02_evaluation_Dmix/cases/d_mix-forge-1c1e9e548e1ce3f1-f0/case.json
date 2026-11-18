@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-1c1e9e548e1ce3f1-f0",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/SaitamaV2_0xCE3f08e664693ca792caCE4af1364D5e220827B2.pdf.json",
+  "source_sha256": "767d147b2177d225ba499388df715bd4e820e43e885db3d25bd220d69e2c3ed0",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/interfinetwork/audited-codes",
+  "attack_family": "CWE-282+CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity high",
+    "project commit: 555bc01d8f3e4466a66c43a35e87229a6a116432",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "1fe3516a49e7a67d1da0b427428197bd8804895dd0bfc5c9ec2374da8531a82a"
+}

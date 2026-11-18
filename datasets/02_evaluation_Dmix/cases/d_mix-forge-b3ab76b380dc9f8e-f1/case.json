@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-b3ab76b380dc9f8e-f1",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/Moow-deal_SC-Audit_080823_SA-1605.pdf.json",
+  "source_sha256": "007412bb03385ce69de82a75512f99b2569d009819a4336b9870106927399196",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/superchainers/mw_chain",
+  "attack_family": "CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 1; severity critical",
+    "project commit: 17445da642fb56dba128b4e79db04dcd93ba8431, 6e2ff3d4c389937208e4d415879df60a914e93ac",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "404590262b62a247cd0caccd37bb962f4321f98a22337a3ca5c6dadd1e27de8a"
+}

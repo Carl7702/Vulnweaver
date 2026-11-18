@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-03-phoenix-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-03/Phoenix_exp.sol",
+  "source_sha256": "3c1abbe7dbdc7effa194c87933fabbd76770feee1ea5bf25cbc1a6cd934ce8c3",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "phoenix",
+  "attack_family": "access-control+approval+upgrade+flash-loan+accounting",
+  "incident_month": "2023-03",
+  "fixed_fork_block": 40066946,
+  "attack_tx_hash": "0x6fa6374d43df083679cdab97149af8207cda2471620a06d3f28b115136b8e2c4",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "e7a0b27176ed888de0baac6cf456e2539ced0e67084e1018cdf60cf439c37d08"
+}

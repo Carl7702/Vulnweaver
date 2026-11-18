@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-05-raricapital-exp",
+  "source_file": "src/test/2021-05/RariCapital_exp.sol",
+  "source_sha256": "83f41b9e9c1e7629de9d5dcbf0415feed4a43ad83e3f6a3b61fdbddd72f12fc4",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-05",
+  "project_id": "raricapital",
+  "attack_family": "signature+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 12394009
+  },
+  "attack_tx_hash": "0x171072422efb5cd461546bfe986017d9b5aa427ff1c07ebe8acc064b13a7b7be",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "0195758ce9c4cf9595b4c3c2d45e55b951cf504fc18a6b01cf928694020c28f9"
+}

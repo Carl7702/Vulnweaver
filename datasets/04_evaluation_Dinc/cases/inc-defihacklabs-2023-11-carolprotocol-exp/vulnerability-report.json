@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-11-carolprotocol-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-11/CAROLProtocol_exp.sol",
+  "source_sha256": "384951104f58aa96f3bb240d531f8f4c641e18e92aaca05d62538baebf2b8e77",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "carolprotocol",
+  "attack_family": "reentrancy+price-manipulation+flash-loan+accounting",
+  "incident_month": "2023-11",
+  "fixed_fork_block": 7246080,
+  "attack_tx_hash": "0xd962d397a7f8b3aadce1622e705b9e33b430e86e0d306d6fb8ccbc5957b4185c",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "bc8d0c99eca41524b37b011087950607b58589a280d58e163bf0fdd37dfa3c56"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-09-bxh-exp",
+  "source_file": "src/test/2022-09/BXH_exp.sol",
+  "source_sha256": "2a4e1735715051ff59ad71784fb85066e771b7482ca448910440051642a38287",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-09",
+  "project_id": "bxh",
+  "attack_family": "deflationary-token+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 21727289
+  },
+  "attack_tx_hash": "0xa13c8c7a0c97093dba3096c88044273c29cebeee109e23622cd412dcca8f50f4",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "8c21b12e56ea32c9875e4d1a3055406f2a9f13a84843fd4081da60e4f5f2bf1a"
+}

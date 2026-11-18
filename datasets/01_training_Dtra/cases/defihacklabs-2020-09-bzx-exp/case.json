@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2020-09-bzx-exp",
+  "source_file": "src/test/2020-09/bzx_exp.sol",
+  "source_sha256": "b5296bae83072ab75d19c24409192a00b693c98a6f90f9bb73b048a95bd52115",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2020-09",
+  "project_id": "bzx",
+  "attack_family": "flash-loan+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 10852715
+  },
+  "attack_tx_hash": "0x85dc2a433fd9eaadaf56fd8156c956da23fc17e5ef83955c7e2c4c37efa20bb5",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "161d5a092478924e97765f141d4e065c63e884eb4db3040190a9f11312479432"
+}

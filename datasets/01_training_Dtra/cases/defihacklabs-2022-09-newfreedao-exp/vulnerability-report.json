@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-09-newfreedao-exp",
+  "source_file": "src/test/2022-09/NewFreeDAO_exp.sol",
+  "source_sha256": "2720d8d5e3f5a39e26e47b44bb874dfdf3eddd0e3fa77b8c67d317ccbb969fb2",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-09",
+  "project_id": "newfreedao",
+  "attack_family": "overflow+deflationary-token+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 21140434
+  },
+  "attack_tx_hash": "0x1fea385acf7ff046d928d4041db017e1d7ead66727ce7aacb3296b9d485d4a26",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "892acb9f87e00001200026580dd2aa00783a5142003fc8ad18cf76aae28bcc81"
+}

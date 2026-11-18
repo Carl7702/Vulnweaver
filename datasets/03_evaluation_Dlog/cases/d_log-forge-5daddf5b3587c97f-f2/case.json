@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-5daddf5b3587c97f-f2",
+  "dataset": "D_log",
+  "source_file": "dataset/results/Morpho-Av3-Spearbit-Security-Review.pdf.json",
+  "source_sha256": "12102d6d8bba08dff3abc2eea47d620c971876a5ec3c6aceb5bdb42534b44ff6",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/morpho-dao/morpho-aave-v3",
+  "attack_family": "CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 2; severity critical",
+    "project commit: 76525db269a530c679a95e05144e5a6011bc0855",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "57bbb0d4bb3106d7505cf1f5e53505884a1f944027344c57b6e1c3f77cb8e1ca"
+}

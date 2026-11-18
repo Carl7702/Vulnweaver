@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-8bf7eda9067b9901-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/Aspida Network.md.json",
+  "source_sha256": "c1ab82e89da047c3b736ba3fee3ab108d342fd2b44e70adceee08d70ed08bca7",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/aspidanet/aspida-contract",
+  "attack_family": "CWE-284+CWE-285+CWE-863",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: a94928e27a72baabb8c73b42634350ca934b3353",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "af597aa5a195e7b2373a92a94a3ba84dfcc99bdd55acd0b437f9cd3950c35c3b"
+}

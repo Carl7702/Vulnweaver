@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-07-carson-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-07/Carson_exp.sol",
+  "source_sha256": "fdcc073149a72ae50569c3f17cd67f7a1ce9a57af8fe6c7e5f9167c32a14fb74",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "carson",
+  "attack_family": "oracle+deflationary-token+flash-loan+accounting",
+  "incident_month": "2023-07",
+  "fixed_fork_block": 30306324,
+  "attack_tx_hash": "0x37d921a6bb0ecdd8f1ec918d795f9c354727a3ff6b0dba98a512fceb9662a3ac",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "bb90043be2ac0a93e184b61180877648e8ea34ffa4e4d6b6a1e9553bb8b51d48"
+}

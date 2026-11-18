@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2025-03-h2o-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2025-03/H2O_exp.sol",
+  "source_sha256": "b278332219ba261a3fe0b0bb70c300f4d0c8ced6bfacf469a91228e462248dd5",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "h2o",
+  "attack_family": "access-control+deflationary-token+accounting",
+  "incident_month": "2025-03",
+  "fixed_fork_block": 47454898,
+  "attack_tx_hash": "0x729c502a7dfd5332a9bdbcacec97137899ecc82c17d0797b9686a7f9f6005cb7",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "6b662d2e32da449bf7999253aad2f8db3abd94323b5ff04c7fcfb7c8b9f30614"
+}

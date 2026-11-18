@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-03-paid-exp",
+  "source_file": "src/test/2021-03/PAID_exp.sol",
+  "source_sha256": "1835d33ab25a2a8408effa271ae0bda8c94381875c87141ae4b1b83a5d937d4e",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-03",
+  "project_id": "paid",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 11979839
+  },
+  "attack_tx_hash": "0x4bb10927ea7afc2336033574b74ebd6f73ef35ac0db1bb96229627c9d77555a0",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "09d40262e600d0cb5bb4a6e74e3408506f3d4621e36d32a24d6e0550b006974e"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-11-ehx-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-11/EHX_exp.sol",
+  "source_sha256": "b401518df388d8fa1c54c46eee21ae9daddeb5debfa39ac042b0a13dc12afc47",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "ehx",
+  "attack_family": "oracle+deflationary-token+flash-loan+accounting",
+  "incident_month": "2023-11",
+  "fixed_fork_block": 33503911,
+  "attack_tx_hash": "0x8b528372b743b4b8c4eb0904c96529482653187c19e13afaa22f3ba4e08fbfbb",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "1becea786cf8841831c69629280d800f9c2a2d9d35065ff56b5085db05d56232"
+}

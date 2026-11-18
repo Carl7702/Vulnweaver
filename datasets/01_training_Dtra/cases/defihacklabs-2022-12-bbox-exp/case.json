@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-12-bbox-exp",
+  "source_file": "src/test/2022-12/BBOX_exp.sol",
+  "source_sha256": "24422e0327dfda858ed272f2097fd35ac5f262bcf5530e194c1c98bcea7784a2",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-12",
+  "project_id": "bbox",
+  "attack_family": "signature+deflationary-token+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 23106506
+  },
+  "attack_tx_hash": "0xac57c78881a7c00dfbac0563e21b5ae3a8e3f9d1b07198a27313722a166cc0a3",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "4a2586f2b3286cce7f16160cdb2dd1d807fb7cf00050a98aeebc3f4f981dfbe8"
+}

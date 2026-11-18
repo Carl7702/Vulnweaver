@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2025-01-ast-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2025-01/Ast_exp.sol",
+  "source_sha256": "c82af717a22ec743353213309f16f4aff6bc264dd386f89b9a7d7d19fc798b23",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "ast",
+  "attack_family": "upgrade+deflationary-token+accounting",
+  "incident_month": "2025-01",
+  "fixed_fork_block": 45964639,
+  "attack_tx_hash": "0x80dd9362d211722b578af72d551f0a68e0dc1b1e077805353970b2f65e793927",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "64f9d17b173542220474f90b62c422069327c6c59b72ac17cb062d24b6e8c166"
+}

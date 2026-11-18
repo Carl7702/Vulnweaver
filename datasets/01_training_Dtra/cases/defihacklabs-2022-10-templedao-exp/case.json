@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-templedao-exp",
+  "source_file": "src/test/2022-10/Templedao_exp.sol",
+  "source_sha256": "3a459dd07a7fd3562e78c67ddce4d80988c5decd472e9031ee2d6c62ffe5d069",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "templedao",
+  "attack_family": "access-control+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15725066
+  },
+  "attack_tx_hash": "0x8c3f442fc6d640a6ff3ea0b12be64f1d4609ea94edd2966f42c01cd9bdcf04b5",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "bf29311bb520b92cfdd3591e5f72184ac22ef3dbbe996fd5e6ea388a04246175"
+}

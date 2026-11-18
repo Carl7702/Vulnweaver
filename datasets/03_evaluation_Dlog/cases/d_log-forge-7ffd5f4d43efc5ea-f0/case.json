@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-7ffd5f4d43efc5ea-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/MetaGenesis_SC-Audit-Report_07112023_SA-1991.pdf.json",
+  "source_sha256": "8cfac8da629adc831a1201bc56e728cb734c0ee4d7ba6cee21fe8588df8489cd",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/metatime-technology-inc/genesis-contracts",
+  "attack_family": "CWE-1265+CWE-691",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: e187053ae4654e4ff25e6b55c5a7435e9fc2bb34",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "c6ad2b211ff8c516446b706965a56b21c840ef7f1de79cd2fdd4278d46ae3897"
+}

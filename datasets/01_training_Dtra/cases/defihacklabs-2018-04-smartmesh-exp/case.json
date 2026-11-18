@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2018-04-smartmesh-exp",
+  "source_file": "src/test/2018-04/SmartMesh_exp.sol",
+  "source_sha256": "dc006fab9fca668bb31ff1fc8d70bf5ed4c936742cf6270629b241f761273be9",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2018-04",
+  "project_id": "smartmesh",
+  "attack_family": "upgrade+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 5499034
+  },
+  "attack_tx_hash": "0x1abab4c8db9a30e703114528e31dee129a3a758f7f8abc3b6494aad3d304e43f",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "c33683038b545f4d27ab49f0658e5a43190094e59587ef98ba9e57de81c3779a"
+}

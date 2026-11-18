@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-657b00da85ee7ef9-f1",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/ConsenSys_Diligence-Codefi_ERC1400_Assessment.pdf.json",
+  "source_sha256": "f8b52e5de67e2a3900b100bdb08bb8f7b6a55c9d08be408d97925c754527e542",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/consensys/erc1400",
+  "attack_family": "CWE-345+CWE-347+CWE-693",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 1; severity critical",
+    "project commit: f6de24d50c54471f85985e2303a04bb92c27ac71",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "7754818c9fd541b00d91bdabd70786c3ffd14acef5b40482a67ad0321fb853be"
+}

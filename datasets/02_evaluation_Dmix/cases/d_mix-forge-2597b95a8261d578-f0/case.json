@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-2597b95a8261d578-f0",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/HAECHI_AUDIT-Stacker_Venture.pdf.json",
+  "source_sha256": "4c882a1ee45a8dd7f69248b2c4d9c1a07ec7299850e88d533323631cf78929bd",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/jack0x-tech/stackervc_venturefund001",
+  "attack_family": "CWE-284+CWE-285+CWE-732",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: b0192cf354537c1b6a7dc3257066c086624e60fb",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "500359b2e1d86f2adda3a1d6e4528308a4948102dcefb340d0745a36a934e1da"
+}

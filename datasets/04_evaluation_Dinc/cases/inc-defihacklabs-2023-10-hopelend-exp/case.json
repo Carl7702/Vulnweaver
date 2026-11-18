@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-10-hopelend-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-10/Hopelend_exp.sol",
+  "source_sha256": "52ea73428e21e74a684c1056d9379698899f76b8fd27c7d42220c166f532231d",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "hopelend",
+  "attack_family": "rounding+signature+upgrade+price-manipulation+flash-loan+accounting",
+  "incident_month": "2023-10",
+  "fixed_fork_block": 18377041,
+  "attack_tx_hash": "0x1a7ee0a7efc70ed7429edef069a1dd001fbff378748d91f17ab1876dc6d10392",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "d7f56cd502216e7f6b2636ecd5e164a8529ce10c35f9c6ebf26c0bd54603ed91"
+}

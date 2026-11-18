@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-dd88aa9406d6b9df-f4",
+  "dataset": "D_log",
+  "source_file": "dataset/results/PeckShield-Audit-Report-Chronos-v1.0.pdf.json",
+  "source_sha256": "21c0c579b33d7f1b84800c2849f1d349bc4a84f7d2481d5271fb177b0323f280",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/chronosex/chronos-contractsv2",
+  "attack_family": "CWE-456+CWE-664+CWE-665+CWE-909",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 4; severity critical",
+    "project commit: 67cbe1c7b229eca6136f4406859893abbe0a6c3b",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "e09d0fe9716e214be49134b5dbb96bf39498e1098a7c7c3a84f00d830fcca885"
+}

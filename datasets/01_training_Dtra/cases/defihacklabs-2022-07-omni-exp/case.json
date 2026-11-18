@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-07-omni-exp",
+  "source_file": "src/test/2022-07/Omni_exp.sol",
+  "source_sha256": "575523e5b082d7b7ebf77d887a8f30842de090019a13c225d3fc5de77989c05d",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-07",
+  "project_id": "omni",
+  "attack_family": "access-control+approval+flash-loan+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15114361
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "902d013d7c9bc0ac6de26ebc08bcd11f9bb05d1c1a836151fd36095d2454f691"
+}

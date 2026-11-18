@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-06-cfc-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-06/CFC_exp.sol",
+  "source_sha256": "a12bce69602e5b638c5e04fe60100ba95b3cdadc0c86c96d563f39c8ec9946b2",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "cfc",
+  "attack_family": "oracle+deflationary-token+price-manipulation+flash-loan+accounting",
+  "incident_month": "2023-06",
+  "fixed_fork_block": 29116478,
+  "attack_tx_hash": "0xa3c130ed8348919f73cbefce0f22d46fa381c8def93654e391ddc95553240c1e",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "eeba0245be1cea05bac0ec9f26649d5ba7040b5f8a8b88d14ff9fd256ff403e1"
+}

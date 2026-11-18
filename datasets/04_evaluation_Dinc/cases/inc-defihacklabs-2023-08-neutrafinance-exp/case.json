@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-08-neutrafinance-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-08/NeutraFinance_exp.sol",
+  "source_sha256": "bcc9cc49052e4dffb824f6b52a48138fada06215346b8e76bfd4f67463fc2391",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "neutrafinance",
+  "attack_family": "signature+approval+deflationary-token+price-manipulation+flash-loan+accounting",
+  "incident_month": "2023-08",
+  "fixed_fork_block": 117189138,
+  "attack_tx_hash": "0x6301d4c9f7ac1c96a65e83be6ea2fff5000f0b1939ad24955e40890bd9fe6122",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "f3323f66d5e8f37efbc4d278f1b15f4547e3cccea86940a2ee90f24b6f750513"
+}

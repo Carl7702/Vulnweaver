@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-18fcbb8867f457fc-f3",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/2022-09-incrementprotocol-fixreview.pdf.json",
+  "source_sha256": "4e65a1155a680bf4e1e03184f1a5ab152502047238e992b78c891b40c4232a85",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/increment-finance/increment-protocol",
+  "attack_family": "CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 3; severity high",
+    "project commit: 9368b23ac2d2f5dc954cc849d20cdeca21d627c6",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "324300f7be71d4d7dabaecaa40ed99b7a138b90d9c9139e2c0b508b3ee4943a0"
+}

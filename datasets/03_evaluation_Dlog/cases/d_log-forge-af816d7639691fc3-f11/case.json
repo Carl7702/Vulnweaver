@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-af816d7639691fc3-f11",
+  "dataset": "D_log",
+  "source_file": "dataset/results/DEFINE Token Smart Contract Audit Report - QuillAudits.pdf.json",
+  "source_sha256": "f771571de234a964ff94c2d0de3aae7c3021a8ef6aba721e516a7fc99fe618e0",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/playtimeprofit/definetics",
+  "attack_family": "CWE-1265+CWE-691",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 11; severity critical",
+    "project commit: 517febe6052669b30f3bf7993c49ac90d6e5545a",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "67d06d44cb15fb02eafd6e18be75ffbbd5bc3295bb141ef8e5e042b4a09a1736"
+}

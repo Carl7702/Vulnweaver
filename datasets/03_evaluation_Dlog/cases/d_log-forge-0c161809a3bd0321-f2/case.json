@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-0c161809a3bd0321-f2",
+  "dataset": "D_log",
+  "source_file": "dataset/results/ConsenSys_Diligence-The_LAO.pdf.json",
+  "source_sha256": "85e65032500ab83ff2d54fbd19f35b0591a6703cbac3e925522004b0eaddf653",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/molochventures/moloch",
+  "attack_family": "CWE-664",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 2; severity critical",
+    "project commit: 72de55374ea583c7b314107e6e17b745f745e875",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "0b7dc3ef32a545811b569af008585b3a50e8cbbef358933467413d303d1f92f4"
+}

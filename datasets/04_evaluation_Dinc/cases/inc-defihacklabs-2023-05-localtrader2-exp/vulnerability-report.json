@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-05-localtrader2-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-05/LocalTrader2_exp.sol",
+  "source_sha256": "e488b4a67434ff4cdbe6381a3baabd0525b3833bfc1cfd82c1a54cf89db1e6d0",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "localtrader2",
+  "attack_family": "access-control+upgrade+deflationary-token+price-manipulation+accounting",
+  "incident_month": "2023-05",
+  "fixed_fork_block": 28460897,
+  "attack_tx_hash": "0x57b589f631f8ff20e2a89a649c4ec2e35be72eaecf155fdfde981c0fec2be5ba",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "c0e55c2ca72a1a6c5101d4f332138310ae1dc100f5e0514f1d26c76773dfecb5"
+}

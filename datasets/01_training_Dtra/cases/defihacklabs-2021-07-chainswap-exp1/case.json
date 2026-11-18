@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-07-chainswap-exp1",
+  "source_file": "src/test/2021-07/Chainswap_exp1.sol",
+  "source_sha256": "8e0a57c7eae4ca6902f6bc8e3d6c705ac3402d44b53d576e28fcde40c49b8ebd",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-07",
+  "project_id": "chainswap",
+  "attack_family": "access-control+signature+upgrade",
+  "fork": {
+    "network": "mainnet",
+    "block": 12751487
+  },
+  "attack_tx_hash": "0x5c5688a9f981a07ed509481352f12f22a4bd7cea46a932c6d6bbe67cca3c54be",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "1d8be11461804bde61571f86864f23850d86bd94e46cbe0b093926c4d35d9726"
+}

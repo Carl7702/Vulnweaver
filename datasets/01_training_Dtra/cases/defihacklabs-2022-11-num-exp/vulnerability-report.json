@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-11-num-exp",
+  "source_file": "src/test/2022-11/NUM_exp.sol",
+  "source_sha256": "4a86d4cb2ff57c562603c9979d32efc20003ac5cdd3ff3245fc131eb0152f261",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-11",
+  "project_id": "num",
+  "attack_family": "signature+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 16029969
+  },
+  "attack_tx_hash": "0x8a8145ab28b5d2a2e61d74c02c12350731f479b3175893de2014124f998bff32",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "385b32eb7c2e3efde4b2ff83753bc75a551793a052b30cb2f64d0e0fe8fd7d85"
+}

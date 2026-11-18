@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-10-astrid-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-10/Astrid_exp.sol",
+  "source_sha256": "23b69fdbd6e6eb66151aa9c960f669f2af3ba1f18b14829bbcca527b065c0e54",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "astrid",
+  "attack_family": "approval+price-manipulation+accounting",
+  "incident_month": "2023-10",
+  "fixed_fork_block": 18448167,
+  "attack_tx_hash": "0x8af9b5fb3e2e3df8659ffb2e0f0c1f4c90d5a80f4f6fccef143b823ce673fb60",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "ffc47c20d8184cc60408681ea80682aa7b4f43363eaab134e7f3cdac684409b1"
+}

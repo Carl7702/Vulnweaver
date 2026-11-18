@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-01f497350b2f90b0-f7",
+  "dataset": "D_log",
+  "source_file": "dataset/results/LitLab_Games_SC-Audit-Report_05052023_SA-1078-1-1.pdf.json",
+  "source_sha256": "d07b8617a7494725b266473d0c4a8ed77414982dd40f5d8e56a18f349985d8f5",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/jgomes79/litlabgames",
+  "attack_family": "CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 7; severity critical",
+    "project commit: ab293ecaf7ed754f964b7c7b5e31985883db4504",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "24d984be5c4cac92f410cf672f1fddc88f215321d986bf7138e603265b20c4ab"
+}

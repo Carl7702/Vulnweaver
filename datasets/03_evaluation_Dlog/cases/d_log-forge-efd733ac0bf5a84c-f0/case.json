@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-efd733ac0bf5a84c-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/2023_11_Codefunded.pdf.json",
+  "source_sha256": "bdc8fd772ee63adc33386c1cc03c6c719f77155ef09955f3622dce4a55e625d3",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/codefunded/sc-fundswap",
+  "attack_family": "CWE-664+CWE-666+CWE-826",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: b279c659c822415ddca778dc44a15c176ede68e5",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "8c85d360bff863e7fabf3f0bd9727c5c0d10ed1b37afd6f32e810edb08c1e9dd"
+}

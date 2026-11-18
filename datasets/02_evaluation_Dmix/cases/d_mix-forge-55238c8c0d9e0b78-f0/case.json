@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-55238c8c0d9e0b78-f0",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/FraxFinance.pdf.json",
+  "source_sha256": "0995c6c450a8b612be5c76f0dda00061212d6e5a29360f496617ce6ae1247353",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/fraxfinance/frax-solidity",
+  "attack_family": "CWE-392+CWE-703+CWE-755",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity high",
+    "project commit: 3f0993a70e3496fd27887db7754d68709c84015e",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "c9f48847ce9e87d87335d38eaa596e6e3f1d6751cc83eeb79e45f74310cb3a25"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-c43daab2fc3ab6e0-f3",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/Bond Appetit.md.json",
+  "source_sha256": "74601a8e48c04a7053613ef5c34d9feeeae65de7679c885ec1d56d73d1ad49dc",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/bondappetit/bondappetit-protocol",
+  "attack_family": "CWE-664",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 3; severity high",
+    "project commit: c131f5dacf02ff8b6008c4da7788b71d86b26427",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "199c3367590b3c51b1d76c5414b946d4ea60f045adc61d16f4cabcb4d50fd4b8"
+}

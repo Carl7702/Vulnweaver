@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-01-sushi-badger-digg-exp",
+  "source_file": "src/test/2021-01/Sushi_Badger_Digg_exp.sol",
+  "source_sha256": "bda5eadecd9b7893433e5c402efc7b590f97fb9cab04452c6b91fda01d7bbb84",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-01",
+  "project_id": "sushi-badger-digg",
+  "attack_family": "access-control+bridge+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 11720049
+  },
+  "attack_tx_hash": "0x0af5a6d2d8b49f68dcfd4599a0e767450e76e08a5aeba9b3d534a604d308e60b",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "04cf0b192a9814e7b5c1fe327088d4924cf4fe62c90e3542b2415e4578ebdb89"
+}

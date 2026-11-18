@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-12-nmbplatform-exp",
+  "source_file": "src/test/2022-12/Nmbplatform_exp.sol",
+  "source_sha256": "c205e4a256b1739e60614592ce9dc81c07919dfcf08454e4e66c8f96cb28758b",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-12",
+  "project_id": "nmbplatform",
+  "attack_family": "deflationary-token+price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 23639507
+  },
+  "attack_tx_hash": "0x7d2d8d2cda2d81529e0e0af90c4bfb39b6e74fa363c60b031d719dd9d153b012",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "f54605affa4ed7f0c40dfe1b43029c3d3c3a2cc28f2b2c69ec1d5bf8ace5683a"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-c063c6047587c8f2-f0",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/IoTex_final_Secure3_Audit_Report.pdf.json",
+  "source_sha256": "943f9859dc4fff63cd2f152c5526d9164aee8ac3dadf7e938f68c1c064e45a43",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/iotexproject/account-abstraction-contracts",
+  "attack_family": "CWE-345+CWE-347+CWE-693",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: a9434741eb635b601c61fa395e05b03c8a0fc496",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "aaffce33206017f93a425822e965d68b663c62951d14f313a67d925f2edc0426"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-03-lifi-exp",
+  "source_file": "src/test/2022-03/LiFi_exp.sol",
+  "source_sha256": "bad2d0a54b823fa2aa2be0c7d6d34b4b4aa55541f3f865fbd007a9a8c521cf3d",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-03",
+  "project_id": "lifi",
+  "attack_family": "approval+bridge+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 14420686
+  },
+  "attack_tx_hash": "0x1438ff9dd1cf9c70002c3b3cbec9c4c1b3f9eb02e29bcac90289ab3ba360e605",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "c1b4d77df2458d1bc494172d56f12e7289a18f65bf77a27f74ff4657f3cf74be"
+}

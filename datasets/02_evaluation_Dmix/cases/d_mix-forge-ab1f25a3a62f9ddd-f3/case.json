@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-ab1f25a3a62f9ddd-f3",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/2022-11-25_Arrakis_V2_core_and_palm.pdf.json",
+  "source_sha256": "d3ca71898130e1d7f7375a40e9fb9fd8124c1e11e0e84ac0b17f2167bbe04f6b",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/arrakisfinance/v2-core",
+  "attack_family": "CWE-269+CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 3; severity high",
+    "project commit: 376bfcec803f0644fdc601db3a5772d2179c13a0",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "9db6f51f3a248cb8b13f44d3b10d5b49860890f101323bb11ca2ce08551eb28d"
+}

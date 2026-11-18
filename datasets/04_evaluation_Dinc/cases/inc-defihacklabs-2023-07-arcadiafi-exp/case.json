@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-07-arcadiafi-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-07/ArcadiaFi_exp.sol",
+  "source_sha256": "ecd73db8a518479e56104dfed840ecbb5a0e29b3cef5adaafad16e872623962d",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "arcadiafi",
+  "attack_family": "signature+upgrade+flash-loan+accounting",
+  "incident_month": "2023-07",
+  "fixed_fork_block": 106676494,
+  "attack_tx_hash": "0xca7c1a0fde444e1a68a8c2b8ae3fb76ec384d1f7ae9a50d26f8bfdd37c7a0afe",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "85b4d38951eba8633b6306d9d0e46c48827ac0b984e0fa898e6c054f2b1ca051"
+}

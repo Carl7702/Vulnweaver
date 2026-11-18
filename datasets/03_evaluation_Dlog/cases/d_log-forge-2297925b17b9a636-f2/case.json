@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-2297925b17b9a636-f2",
+  "dataset": "D_log",
+  "source_file": "dataset/results/Diverse_Solutions_SC-Audit-Report_15062023_SA-1275.pdf.json",
+  "source_sha256": "de0dfbcf11c7980f6453b6c60ef484158f279536b99a6a3a62d5d2db804ddfe1",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/diversesolutions/ardmoney-staking-smart-contracts",
+  "attack_family": "CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 2; severity critical",
+    "project commit: 71b0b2e7d5aaa4db31652574cdb48f2081e045a2",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "7eddec32d12ab147f1b2ea69f9175b539766b2620c9bad0d5f5f32fc9e96257a"
+}

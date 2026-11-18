@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-08-circle-exp2",
+  "source_file": "src/test/2022-08/Circle_exp2.sol",
+  "source_sha256": "1d20f189110175a5558dc3b084c6d8a3022215079c07498090fe0a167af0e91e",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-08",
+  "project_id": "circle",
+  "attack_family": "access-control+price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15354437
+  },
+  "attack_tx_hash": "0xf1818f62c635e5c80ef16b7857da812c74ce330ebed46682b4d173bffe84c666",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "446ffd2423ad135fc66737907aceb22f2588acbc56878920bc6af99f5c3dc52e"
+}

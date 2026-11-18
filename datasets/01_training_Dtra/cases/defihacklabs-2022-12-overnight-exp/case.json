@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-12-overnight-exp",
+  "source_file": "src/test/2022-12/Overnight_exp.sol",
+  "source_sha256": "f9fa717636540c2e971b043267aa15dd592532bc43f3b951da390761c4d51750",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-12",
+  "project_id": "overnight",
+  "attack_family": "oracle+price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "avalanche",
+    "block": 23097846
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "7141e754b64c610914cb4245618abf859ecf0f741c9cd42110ffc0be05759c07"
+}

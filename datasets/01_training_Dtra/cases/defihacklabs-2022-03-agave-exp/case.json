@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-03-agave-exp",
+  "source_file": "src/test/2022-03/Agave_exp.sol",
+  "source_sha256": "069c0b7e9c0550284abf43a530e7093d1bf7a112db0d8573209fa9e76943d784",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-03",
+  "project_id": "agave",
+  "attack_family": "reentrancy+bridge+price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "gnosis",
+    "block": 21120283
+  },
+  "attack_tx_hash": "0xa262141abcf7c127b88b4042aee8bf601f4f3372c9471dbd75cb54e76524f18e",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "5eff33623b8826c4136b6bf827a2f763fc4f13c883de55fd90895e578747c81c"
+}

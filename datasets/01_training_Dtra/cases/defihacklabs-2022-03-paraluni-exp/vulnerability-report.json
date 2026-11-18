@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-03-paraluni-exp",
+  "source_file": "src/test/2022-03/Paraluni_exp.sol",
+  "source_sha256": "436779daaf731fc41f9063d45d99c390dd648e2e0b62942185c1ba3024bddaa0",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-03",
+  "project_id": "paraluni",
+  "attack_family": "approval+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 16008280
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "7120f37874bd1338a23968a1a7aaa419fbc777ac2c55eb7112836ba66cfa88c1"
+}

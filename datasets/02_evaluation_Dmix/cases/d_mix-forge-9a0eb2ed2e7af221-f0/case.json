@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-9a0eb2ed2e7af221-f0",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/Solidified-USM_[10.12.2020].pdf.json",
+  "source_sha256": "0c182c481f77f597e1fd66b4babac9fe8a7be148ea03e6a38dec99647e3c0d29",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/usmfum/usm",
+  "attack_family": "CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: 5b450aea474bc07f38606851b9ef6f84d2be0b3f",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "ebe0fa90fe332b5b4c0e51f9cb2c500b1e46aa80eafb8d6e72f89376490b252a"
+}

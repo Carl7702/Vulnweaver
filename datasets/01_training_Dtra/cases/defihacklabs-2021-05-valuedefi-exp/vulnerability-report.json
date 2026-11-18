@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-05-valuedefi-exp",
+  "source_file": "src/test/2021-05/ValueDefi_exp.sol",
+  "source_sha256": "a2010785f7605cf51d2b4acd431f0490912b831be62297f37965f6bf35d0537a",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-05",
+  "project_id": "valuedefi",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 7223029
+  },
+  "attack_tx_hash": "0xa00def91954ba9f1a1320ef582420d41ca886d417d996362bf3ac3fe2bfb9006",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "ed140d2fbc0575d73f1982ad68c80d77a582eb1f2ad89d87886ce23cff73f403"
+}

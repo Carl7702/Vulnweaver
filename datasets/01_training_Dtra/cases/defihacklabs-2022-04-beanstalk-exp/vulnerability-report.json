@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-04-beanstalk-exp",
+  "source_file": "src/test/2022-04/Beanstalk_exp.sol",
+  "source_sha256": "07c9396063f71acd5e6b4e688adb7bc1ebdd1022083cb05cfc997b3312b42256",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-04",
+  "project_id": "beanstalk",
+  "attack_family": "flash-loan+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 14595905
+  },
+  "attack_tx_hash": "0x68cdec0ac76454c3b0f7af0b8a3895db00adf6daaf3b50a99716858c4fa54c6f",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "988075be92afbdd5e79e3dfc442c907ed0af5af343dbdee12a458de60773dc75"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2020-08-opyn-exp",
+  "source_file": "src/test/2020-08/Opyn_exp.sol",
+  "source_sha256": "b3baa6ccc7eb2441609b69ca7f3676d38b1cff76b46a0533f3eeb413f5852d39",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2020-08",
+  "project_id": "opyn",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 10592516
+  },
+  "attack_tx_hash": "0x56de6c4bd906ee0c067a332e64966db8b1e866c7965c044163a503de6ee6552a",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "12fa270382c1ceec098781f73c62036db1a1672f8118f7ade11a923ce6d911cf"
+}

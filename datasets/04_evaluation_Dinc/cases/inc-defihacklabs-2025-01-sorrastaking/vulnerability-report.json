@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2025-01-sorrastaking",
+  "dataset": "D_inc",
+  "source_file": "src/test/2025-01/sorraStaking.sol",
+  "source_sha256": "f7c8ba39b78a1fc00460d765655aa5c501afb636b7500bced0f718554451bbc1",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "sorrastaking",
+  "attack_family": "signature+deflationary-token+accounting",
+  "incident_month": "2025-01",
+  "fixed_fork_block": 21450734,
+  "attack_tx_hash": "0x72a252277e30ea6a37d2dc9905c280f3bc389b87f72b81a59aa8f50baebd8eaa",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "fff97b3daf75e8464885d5854855cc1bd9777a0f3ae948bb44482eb93464f398"
+}

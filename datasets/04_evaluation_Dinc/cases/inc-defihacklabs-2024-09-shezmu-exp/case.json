@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2024-09-shezmu-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2024-09/Shezmu_exp.sol",
+  "source_sha256": "9dbc105d0975497c1369e666f082c9fa0e29aad90c511514a4b73fab699ff246",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "shezmu",
+  "attack_family": "access-control+upgrade+accounting",
+  "incident_month": "2024-09",
+  "fixed_fork_block": 20794864,
+  "attack_tx_hash": "0x39328ea4377a8887d3f6ce91b2f4c6b19a851e2fc5163e2f83bbc2fc136d0c71",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "d4cd907c0c289df46ccd3278c5ec904c25e7d8ab174ad55f1ed8887c9c9e4a1b"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-11-moocakectx-exp",
+  "source_file": "src/test/2022-11/MooCAKECTX_exp.sol",
+  "source_sha256": "967f9fbbd69d4b9991405e003b83e4504d941a03a44ea0c91306f3c8ab880868",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-11",
+  "project_id": "moocakectx",
+  "attack_family": "deflationary-token+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 22832427
+  },
+  "attack_tx_hash": "0x03d363462519029cf9a544d44046cad0c7e64c5fb1f2adf5dd5438a9a0d2ec8e",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "93ffc518f7474478cf4899551b7f9d5898d52cfe51be46469e484c9986b25d5b"
+}

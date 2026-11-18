@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2020-11-pickle-exp",
+  "source_file": "src/test/2020-11/Pickle_exp.sol",
+  "source_sha256": "946d7bd20228980ed6a84a463adc0ca28ea25d5df188a75bc807a247d5595597",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2020-11",
+  "project_id": "pickle",
+  "attack_family": "rounding+approval+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 11303122
+  },
+  "attack_tx_hash": "0xe72d4e7ba9b5af0cf2a8cfb1e30fd9f388df0ab3da79790be842bfbed11087b0",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "8511a0f73a9c1b00c4f52dfdbf91aced00c01778c65b3bc3abe2b57532dc8cd2"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2024-11-proxy-b7e1-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2024-11/proxy_b7e1_exp.sol",
+  "source_sha256": "5fe9d6a4581205bb3c0be32a73f3e3c2cba1b6ce7e83cc91bba58ff1b99fcfc7",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "proxy-b7e1",
+  "attack_family": "upgrade+deflationary-token+accounting",
+  "incident_month": "2024-11",
+  "fixed_fork_block": 44294726,
+  "attack_tx_hash": "0x864d33d006e5c39c9ee8b35be5ae05a2013e556be3e078e2881b0cc6281bb265",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "0ba60a82a30fddef1afeb7bb2ff459978d29c11c2bbac2b52d6dd61f7f34d9a6"
+}

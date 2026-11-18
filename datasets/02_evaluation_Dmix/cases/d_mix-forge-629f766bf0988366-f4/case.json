@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-629f766bf0988366-f4",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/Solidified-NFTSalon_[19.05.2021].pdf.json",
+  "source_sha256": "0a1881175efacd53282a51db8718a861e4609dc9349923d646dc28c9eee97868",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/kole-swapnil/cryptoart",
+  "attack_family": "CWE-284+CWE-285+CWE-862",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 4; severity critical",
+    "project commit: e55ed6029045f73c2759562990413e9f25876f2a",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "7e18330a7c5b67ea5ca7becc4003a4f43b2b538089fd0c4e4c47b2a571ec3066"
+}

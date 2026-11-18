@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-pltd-exp",
+  "source_file": "src/test/2022-10/PLTD_exp.sol",
+  "source_sha256": "1754262cd617cff7e3bae6b93c381c12bcb18deaa5907f445002c151910a305c",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "pltd",
+  "attack_family": "deflationary-token+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 22252045
+  },
+  "attack_tx_hash": "0x8385625e9d8011f4ad5d023d64dc7985f0315b6a4be37424c7212fe4c10dafe0",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "5189c3eb3373c46df8501ec91f2c43cff334d104e9c1420906bdba94c56fd917"
+}

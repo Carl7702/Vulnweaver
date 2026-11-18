@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-00707934bd772228-f3",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/CleverMinu_Smart_Contract_Audit_Report_QuillAudits_.pdf.json",
+  "source_sha256": "6c8e8d9d286a314eba7d8f17ff31d8008a4d8e92547b9f8e5508c040392df7ca",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/cleverminu/contract",
+  "attack_family": "CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 3; severity high",
+    "project commit: 4a7cac0615c0f265544c2aa974900041d59d61e6",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "19966d30ca71564255c41ac1c05046b79e91bc9d49eedc971ad06adddcdb629c"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2018-04-bec-exp",
+  "source_file": "src/test/2018-04/BEC_exp.sol",
+  "source_sha256": "6fd293f1e1c467d0228914cdfd245a38ad714bf7f9bee506878579794a4c2444",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2018-04",
+  "project_id": "bec",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 5483642
+  },
+  "attack_tx_hash": "0xad89ff16fd1ebe3a0a7cf4ed282302c06626c1af33221ebe0d3a470aba4a660f",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "a32345d34c1bc5eb70c8cbccea0f4ceafb19c876c05e4d6c07dc17bae39ce972"
+}

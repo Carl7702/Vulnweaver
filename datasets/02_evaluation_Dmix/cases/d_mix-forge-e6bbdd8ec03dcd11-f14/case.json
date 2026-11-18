@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-e6bbdd8ec03dcd11-f14",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/ConsenSys_Diligence-AragonBlack_Fundraising.pdf.json",
+  "source_sha256": "67343eb681d25a5cf2e726364105277ed51267587fd43d1a4385020d41d24179",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/aragonblack/fundraising",
+  "attack_family": "CWE-664+CWE-666",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 14; severity high",
+    "project commit: 5ad1332955bab9d36cfad345ae92b7ad7dc0bdbe",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "3e0462f12c150c41da9e99103cd3d40342cbac0c531609c445d2637f2d6ee904"
+}

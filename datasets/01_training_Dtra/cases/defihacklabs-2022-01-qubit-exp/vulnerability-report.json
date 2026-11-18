@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-01-qubit-exp",
+  "source_file": "src/test/2022-01/Qubit_exp.sol",
+  "source_sha256": "24ae87ced5df0bdb2b3f64cbd30ddbfd55647e047487343933a5ea3a1bad9c74",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-01",
+  "project_id": "qubit",
+  "attack_family": "bridge+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 14090169
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "1f2f7ee0a1cff1c49d6f93f4665adbce549c3001fe1abc2d6136ea122499b7eb"
+}

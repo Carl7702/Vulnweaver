@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2020-12-cover-exp",
+  "source_file": "src/test/2020-12/Cover_exp.sol",
+  "source_sha256": "d7498517d839053ffd7eebfadb38b471203e803d12627e29a90cf0920f9b359b",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2020-12",
+  "project_id": "cover",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 11542309
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "d56212178a68d1801d028a04d5ece932684cb3dfdf35468122732a51bb5f3ebb"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-04-rikkei-exp",
+  "source_file": "src/test/2022-04/Rikkei_exp.sol",
+  "source_sha256": "b7b10d175753b0d835dcb63febd804534846ca6b6b980b08f8f768034fcb5465",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-04",
+  "project_id": "rikkei",
+  "attack_family": "oracle+rounding+price-manipulation+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 16956474
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "f16b56b4a654f1845ba8495657afb0ca3f96c8622b048665a65c3e78651ef37e"
+}

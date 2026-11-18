@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-04-sentiment-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-04/Sentiment_exp.sol",
+  "source_sha256": "c8a76b858de145be7af2a5da9cf62f1f4b1c93950e408a5023eb3f7f3265f73f",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "sentiment",
+  "attack_family": "reentrancy+oracle+signature+price-manipulation+flash-loan+accounting",
+  "incident_month": "2023-04",
+  "fixed_fork_block": 77026912,
+  "attack_tx_hash": "0xa9ff2b587e2741575daf893864710a5cbb44bb64ccdc487a100fa20741e0f74d",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "82280bd2a1a177cb069adbf9de7276914ebdc7d06f9d135ed9d71e18350b757e"
+}

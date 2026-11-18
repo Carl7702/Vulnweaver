@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-2e385e0deda6e6f4-f0",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/RevomonVR Smart Contract Audit by Solidity Finance.pdf.json",
+  "source_sha256": "c2d5edaf61f91a0239192a686d30beade5fc961979723275c60b177309cc4124",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/revomonvr/contracts",
+  "attack_family": "CWE-269+CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity high",
+    "project commit: 9d0da49342a1a87b6cafebd4945612c2cfb8669d",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "c774605bec1c9576d928d3d650fd6ac1da6d6b87e6371da4ff610c72c538287f"
+}

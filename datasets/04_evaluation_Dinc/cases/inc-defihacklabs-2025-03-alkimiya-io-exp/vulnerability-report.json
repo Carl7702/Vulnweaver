@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2025-03-alkimiya-io-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2025-03/Alkimiya_io_exp.sol",
+  "source_sha256": "833fdf55c15f211485c300ca30b75897f39ac0c451def719addbd383ba041544",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "alkimiya-io",
+  "attack_family": "access-control+flash-loan+accounting",
+  "incident_month": "2025-03",
+  "fixed_fork_block": 22146339,
+  "attack_tx_hash": "0x9b9a6dd05526a8a4b40e5e1a74a25df6ecccae6ee7bf045911ad89a1dd3f0814",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "e0002e3296a7d32e8c4f4bc6c41ad699eca711b8fffee30d52d301ac0f01ca7c"
+}

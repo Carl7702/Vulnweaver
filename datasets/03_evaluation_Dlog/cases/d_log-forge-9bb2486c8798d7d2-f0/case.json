@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-9bb2486c8798d7d2-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/Fee Collector.md.json",
+  "source_sha256": "83c8e0f0cb2d44ea4a61917616757f91ef2175dc92ccbe2d4a7a1abff651c40d",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/1inch/fee-collector",
+  "attack_family": "CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: 3c2626763fd829500496f15476d5e98fbdf4f574",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "5561123a68560f722f49a18a04cb8ef870e29462e087cf07d397f61a70b8ac09"
+}

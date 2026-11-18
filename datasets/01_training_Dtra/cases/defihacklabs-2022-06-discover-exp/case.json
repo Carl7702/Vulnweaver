@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-06-discover-exp",
+  "source_file": "src/test/2022-06/Discover_exp.sol",
+  "source_sha256": "53e20da6dfcee4387427d9f0126bac45ddb592f2e84dff940a9b95bcbc7637b5",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-06",
+  "project_id": "discover",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 18446845
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "7b3c8b02b68483f6cbac41ec12ec40442314b676e8059b5669174e8e900d7ec0"
+}

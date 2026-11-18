@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-05-spartan-exp",
+  "source_file": "src/test/2021-05/Spartan_exp.sol",
+  "source_sha256": "7386f7bff4182bd1bf081c4fce990dea607d03692214cea0cf9f58c12c5e4ec2",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-05",
+  "project_id": "spartan",
+  "attack_family": "price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 7048832
+  },
+  "attack_tx_hash": "0xb64ae25b0d836c25d115a9368319902c972a0215bd108ae17b1b9617dfb93af8",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "12d42183c628a76c3b49b918aa024be777322a1e699735badf067e8629ee0c0e"
+}

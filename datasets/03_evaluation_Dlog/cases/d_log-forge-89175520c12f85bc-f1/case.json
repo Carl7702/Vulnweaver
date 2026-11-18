@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-89175520c12f85bc-f1",
+  "dataset": "D_log",
+  "source_file": "dataset/results/2023_01_MilkyIce.pdf.json",
+  "source_sha256": "502c962bb1269b376d3be48cc0c6001462343e2b0719a9454b946efdb2fcd409",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/codefunded/smartcontracts",
+  "attack_family": "CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 1; severity critical",
+    "project commit: 29243d5578765a6a3b70e4cbd52be80d4017ef54",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "c0eaf6b10f8ea12f9cba6c2d5640015f63f6300b0c0fade545b15d010333baa2"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-ec3e9f15e114f8d2-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/DeShilling_final_Secure3_Audit_Report.pdf.json",
+  "source_sha256": "5bc5694788be49884f3a6ee64b97a2c10e9ab42141674d5d2a9e7b7e15c05b4f",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/startfundinc/des-referral",
+  "attack_family": "CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: f958986c2a1d1e445bf9cc475bb4e5ddcf45ab13",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "b9c0007bdeb778356bf82aa77fe2b6eb602f6ef3bf112fd586bb13fee11918ff"
+}

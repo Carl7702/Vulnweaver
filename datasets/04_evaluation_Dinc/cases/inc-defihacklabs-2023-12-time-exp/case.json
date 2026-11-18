@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-12-time-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-12/TIME_exp.sol",
+  "source_sha256": "0dae8f6658c623d763bf4924b3d30adca4782ff4788df3592fe147683f798657",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "time",
+  "attack_family": "signature+deflationary-token+accounting",
+  "incident_month": "2023-12",
+  "fixed_fork_block": 18730462,
+  "attack_tx_hash": "0xecdd111a60debfadc6533de30fb7f55dc5ceed01dfadd30e4a7ebdb416d2f6b6",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "915b97e98c6c6524f7291bfa268a9f206fad2a44acc68cf0dd261006ac71898c"
+}

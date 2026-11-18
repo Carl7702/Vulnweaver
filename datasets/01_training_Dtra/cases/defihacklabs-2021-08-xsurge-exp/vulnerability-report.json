@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-08-xsurge-exp",
+  "source_file": "src/test/2021-08/XSURGE_exp.sol",
+  "source_sha256": "a7e672ca271e642744ef901fe5c4a92000b650888665522d22bdcb0ba8ab44fe",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-08",
+  "project_id": "xsurge",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 10087723
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "1bc104128fb8eb9b18e25c98ab445e37aedf87045d0ab1db7d3a693a9f9aab84"
+}

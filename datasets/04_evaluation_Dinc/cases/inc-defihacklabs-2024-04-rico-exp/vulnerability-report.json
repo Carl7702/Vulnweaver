@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2024-04-rico-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2024-04/Rico_exp.sol",
+  "source_sha256": "91e171d0d885f40925edef2dd40532ec80f67aeec37f79ca59b7e1dc1cdd934e",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "rico",
+  "attack_family": "approval+price-manipulation+accounting",
+  "incident_month": "2024-04",
+  "fixed_fork_block": 202973712,
+  "attack_tx_hash": "0x5d2a94785d95a740ec5f778e79ff014c880bcefec70d1a7c2440e611f84713d6",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "6caf6126253c21b0dc73ea6df740606e2285a7ee99aaf3ead10868a7e38269de"
+}

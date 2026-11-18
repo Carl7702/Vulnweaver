@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2024-02-ruggedart-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2024-02/RuggedArt_exp.sol",
+  "source_sha256": "b86cba36a2d88e183a7b689319711b9d06c80787dca8fe1090d8455a65aeaebd",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "ruggedart",
+  "attack_family": "upgrade+price-manipulation+accounting",
+  "incident_month": "2024-02",
+  "fixed_fork_block": 19262233,
+  "attack_tx_hash": "0x5a63da39b5b83fccdd825fed0226f330f802e995b8e49e19fbdd246876c67e1f",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "81c7a7a8a7a8f75339b9fef192c7586c81bcc5ebb7ced7bb97edbae50165aef3"
+}

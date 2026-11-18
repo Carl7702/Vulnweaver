@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-3311ae75b9d6df80-f1",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/ImmuneBytes-Retreeb_Preliminary_Audit_Report.pdf.json",
+  "source_sha256": "d4fbdfbc9a1cad20010ded32b740d345edf76261058b5e6761302c0073eb41f4",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/retreebinc/staking-platform",
+  "attack_family": "CWE-703+CWE-754",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 1; severity high",
+    "project commit: 30471f1fe81580d56cbc2f3189e64d583cd78a85",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "9ee1dff8e4bd7efc5d81d8003d337c393c57789d30e1fd84dbf82848895f874a"
+}

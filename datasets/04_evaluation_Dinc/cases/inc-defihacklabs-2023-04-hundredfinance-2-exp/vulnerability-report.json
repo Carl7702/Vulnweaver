@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-04-hundredfinance-2-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-04/HundredFinance_2_exp.sol",
+  "source_sha256": "8b9068a3b9474214880a128ccc8f3729e8ebbf7d4d88a42f0706ed8ccae8ea90",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "hundredfinance-2",
+  "attack_family": "oracle+upgrade+price-manipulation+flash-loan+accounting",
+  "incident_month": "2023-04",
+  "fixed_fork_block": 90760765,
+  "attack_tx_hash": "0x6e9ebcdebbabda04fa9f2e3bc21ea8b2e4fb4bf4f4670cb8483e2f0b2604f451",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "0a1a440f57338898da344aa5b9beae25f43373270fb0342ce605a63e3ee6291d"
+}

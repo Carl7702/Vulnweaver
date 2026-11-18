@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-09-shadowfi-exp",
+  "source_file": "src/test/2022-09/Shadowfi_exp.sol",
+  "source_sha256": "6b3a6198cec875cb659a1c287b044e6510e3c630e6ca8aebb956f5a13f520771",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-09",
+  "project_id": "shadowfi",
+  "attack_family": "deflationary-token+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 20969095
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "afcfb17e17e6daa9bb2512be34369a0e3027eb231f56821055b5fb525df7ee8c"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-11-uearnpool-exp",
+  "source_file": "src/test/2022-11/UEarnPool_exp.sol",
+  "source_sha256": "246479a2e284e3cfea1f1abb1253aa07308335dbf8969659b67f98dfe5c09c8a",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-11",
+  "project_id": "uearnpool",
+  "attack_family": "signature+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 23120167
+  },
+  "attack_tx_hash": "0xb83f9165952697f27b1c7f932bcece5dfa6f0d2f9f3c3be2bb325815bfd834ec",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "da4b0f1ee8fab89746805ffd91b5eefd4a26f246ca28136489540e3297a18af1"
+}

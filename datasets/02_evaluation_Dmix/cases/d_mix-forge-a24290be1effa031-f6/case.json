@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-a24290be1effa031-f6",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/Blockchain_Labs_NZ-KyberNetwork.pdf.json",
+  "source_sha256": "f1e34709e9f6a817b88c047bf9c5d88a8e0f876f66c1181902bee91248653379",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/kybernetwork/smart-contracts",
+  "attack_family": "CWE-269+CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 6; severity high",
+    "project commit: 7c1170407b2dd6df061c9648c2ec9955d7cb6089",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "228b76f622d9aea62b477fd5645c9d8614b2418d161a03d90e8a2f53b4e4f8dc"
+}

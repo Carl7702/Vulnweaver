@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2025-04-bitdog-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2025-04/bitdog_exp.sol",
+  "source_sha256": "f945f50f597dda2431eee63b7d00ff3b462d9309b84dac33171b8ecf749888dc",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "bitdog",
+  "attack_family": "access-control+deflationary-token+accounting",
+  "incident_month": "2025-04",
+  "fixed_fork_block": 48728493,
+  "attack_tx_hash": "0xc0dcad5927446b9fa560be74a76efa0805e67d4c4cd486a48e9e4248287d777e",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "2724d8bc0e67693fdd22a9125b4faef429ec589b71ddc8f964ed9ff9c71932d7"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-75d75a93a30cd444-f8",
+  "dataset": "D_log",
+  "source_file": "dataset/results/Apebond_final_Secure3_Audit_Report.pdf.json",
+  "source_sha256": "e0ec723e89160e8db9e67158877ac718a16d8556e6a64f29dcaa0df86708d875",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/soulsolidity/soulzapv1",
+  "attack_family": "CWE-20",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 8; severity critical",
+    "project commit: 158665422506e5e11e53a1801637fa656a42d3bb",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "b06fcf490ad09d224f2316897855a1ceebd13a2fae72eea909144370e7ae4e85"
+}

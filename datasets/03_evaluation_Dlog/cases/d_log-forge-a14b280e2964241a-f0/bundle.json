@@ -1,0 +1,22 @@
+{
+  "case_id": "d_log-forge-a14b280e2964241a-f0",
+  "dataset": "D_log",
+  "environment_manifest": null,
+  "environment_present": false,
+  "environment_status": "NOT_DISTRIBUTED",
+  "excluded_assets": [
+    "generated_poc",
+    "reference_poc",
+    "replay",
+    "workspace"
+  ],
+  "generated_poc_included": false,
+  "included_sources": [
+    "source"
+  ],
+  "reference_only": true,
+  "report_present": true,
+  "source_kind": "forge_project",
+  "source_present": true,
+  "status": "CANDIDATE"
+}

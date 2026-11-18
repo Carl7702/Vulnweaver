@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-dfc85df38f26187a-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/Blockscape_SC-Audit-Report_09032023_SA-1115..pdf.json",
+  "source_sha256": "fba627eb67afab20b35303bf8cd3d4098424523f2c321ab6e1faca750e1443d1",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/blockscapenetwork/rocketscape",
+  "attack_family": "CWE-1068+CWE-710",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: 73fe19ee5b8c62af2c04b22ee7a6b2972ce1aa2e",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "70f7949af823e584acf837e8c5d14e4f933b4612c3f50c51d39f236f926039cf"
+}

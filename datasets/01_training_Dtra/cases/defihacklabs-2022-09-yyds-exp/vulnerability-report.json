@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-09-yyds-exp",
+  "source_file": "src/test/2022-09/Yyds_exp.sol",
+  "source_sha256": "16dd352491806d518b0a5f730c107e9b1eb80227a5bcd84fa8fe8e13a69d3246",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-09",
+  "project_id": "yyds",
+  "attack_family": "price-manipulation+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 21157025
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "b003e927e41c1d5bc00ed19606ece2e7ff6cad6eab865ed3478cc5cc824170dd"
+}

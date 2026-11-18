@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-transitswap-exp",
+  "source_file": "src/test/2022-10/TransitSwap_exp.sol",
+  "source_sha256": "bc6fbd0441dfaa80bb4703e1428fc54109b9dc8de10a3e8d9af0331bdd48b99d",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "transitswap",
+  "attack_family": "approval+bridge+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 21816545
+  },
+  "attack_tx_hash": "0x181a7882aac0eab1036eedba25bc95a16e10f61b5df2e99d240a16c334b9b189",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "37e459bc225d1b37a3b2ead42f98c6f52a9655caaf91e0b9940dd357214b1742"
+}

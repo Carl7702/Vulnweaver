@@ -1,0 +1,37 @@
+Changed branch/field: main / public release layout and dataset publication boundary
+
+Artifacts:
+- MODIFIED_FILE: training/release/MODIFIED_FILE
+- DIFF_FILE: training/release/DIFF_FILE
+- VERIFICATION.txt: training/release/VERIFICATION.txt
+- executable ROLLBACK.sh: training/release/ROLLBACK.sh
+
+Original README SHA-256: 0980942ecc2b04b534689fc593280b8f4beb3ae48b9e63bd545a06b6e06fed7d
+Modified README SHA-256: 2c2fee9fc5aa1fd7f3f190ee3e323ed368da6fe0b5543557ae511a30515ce239
+
+BASELINE
+Command: .venv/bin/pytest -q
+Input: repository at f068dfffd25d9f39cd851ff1f2059adfbc93edb8 before public-release cleanup
+Literal output/result: 2 failed, 79 passed, 5 skipped in 5.97s; both failures required an unavailable Docker daemon.
+Exit status: 1
+
+MODIFIED
+Command: .venv/bin/python training/verify_release.py && .venv/bin/ruff check core training && .venv/bin/mypy core && uv lock --check && uv build
+Input: cleaned main worktree with five materialized dataset partitions, modular core, and training runtime
+Literal output/result:
+release verification: 568 cases, 17572 payload files, 0 symlinks, 0 generated/reference PoCs
+All checks passed!
+Success: no issues found in 34 source files
+Resolved 87 packages in 15ms
+Building source distribution...
+Building wheel from source distribution...
+Successfully built dist/vulnweaver-0.1.0.tar.gz
+Successfully built dist/vulnweaver-0.1.0-py3-none-any.whl
+Exit status: 0
+
+ROLLBACK
+Command: cp training/release/MODIFIED_FILE /tmp/vulnweaver-rollback-test.md && training/release/ROLLBACK.sh /tmp/vulnweaver-rollback-test.md && shasum -a 256 /tmp/vulnweaver-rollback-test.md
+Input: independent copy of MODIFIED_FILE
+Literal output/result: 0980942ecc2b04b534689fc593280b8f4beb3ae48b9e63bd545a06b6e06fed7d  /tmp/vulnweaver-rollback-test.md
+Exit status: 0
+Restored behavior/status: the independent copy byte-matches the original README from f068dff; the working MODIFIED_FILE remains changed.

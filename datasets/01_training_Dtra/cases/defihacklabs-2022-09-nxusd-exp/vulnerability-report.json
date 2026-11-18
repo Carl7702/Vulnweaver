@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-09-nxusd-exp",
+  "source_file": "src/test/2022-09/NXUSD_exp.sol",
+  "source_sha256": "7985b988a0b53147d48cea018b372658ef29b7f34c8377f6e8c8e2405762d2fa",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-09",
+  "project_id": "nxusd",
+  "attack_family": "approval+price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "avalanche",
+    "block": 19613451
+  },
+  "attack_tx_hash": "0x0ab12913f9232b27b0664cd2d50e482ad6aa896aeb811b53081712f42d54c026",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "748e8c205a13b07dce52aa22440d279e3bd1aac1aba5f41892f503ed979ac318"
+}

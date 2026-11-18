@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2020-04-uniswap-erc777",
+  "source_file": "src/test/2020-04/uniswap-erc777.sol",
+  "source_sha256": "e1148bd9828518359450ce84d479f1fee1cc28f93cc0a7bbf1320c1c90b12311",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2020-04",
+  "project_id": "lendfme",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 9894153
+  },
+  "attack_tx_hash": "0x32c83905db61047834f29385ff8ce8cb6f3d24f97e24e6101d8301619efee96e",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "9613c9729939937bb023ed7e9d06147d4266597a36d1b69ba519d5225a3b9145"
+}

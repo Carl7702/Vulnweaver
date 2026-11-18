@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2020-06-balancer-20200628-exp",
+  "source_file": "src/test/2020-06/Balancer_20200628_exp.sol",
+  "source_sha256": "7d457345b708c609b90823e87a0e34dc7a89c814939fb0823dce1d65811ee81c",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2020-06",
+  "project_id": "balancer-20200628",
+  "attack_family": "deflationary-token+price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 10355806
+  },
+  "attack_tx_hash": "0x013be97768b702fe8eccef1a40544d5ecb3c1961ad5f87fee4d16fdc08c78106",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "b063d111b3e863aad2761947675100f035fd05bf2defa8f97dc80e00ebc2abe6"
+}

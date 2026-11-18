@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2024-12-cloberdex-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2024-12/CloberDEX_exp.sol",
+  "source_sha256": "1400dec5e6f044678d667bed02c51ceb82a4aed09e0643eaed0d99e2b34a8144",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "cloberdex",
+  "attack_family": "reentrancy+approval+flash-loan+accounting",
+  "incident_month": "2024-12",
+  "fixed_fork_block": 23514450,
+  "attack_tx_hash": "0x8fcdfcded45100437ff94801090355f2f689941dca75de9a702e01670f361c04",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "f19b06c0fedf199aa9f58729973ac23ceed63faf072eb30d05c0f3908d32bbca"
+}

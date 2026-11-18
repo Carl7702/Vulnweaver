@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2025-01-lauratoken-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2025-01/LAURAToken_exp.sol",
+  "source_sha256": "429e0ac30146375b33d353f5f2da851e7504293022995f2993e8f4e843a14395",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "lauratoken",
+  "attack_family": "access-control+deflationary-token+flash-loan+accounting",
+  "incident_month": "2025-01",
+  "fixed_fork_block": 21529887,
+  "attack_tx_hash": "0xef34f4fdf03e403e3c94e96539354fb4fe0b79a5ec927eacc63bc04108dbf420",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "350e676efcd11c83bd3ef6088be16a91e1859d25a51698ce0322aee4854082e9"
+}

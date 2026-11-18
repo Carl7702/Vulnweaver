@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-03-revest-exp",
+  "source_file": "src/test/2022-03/Revest_exp.sol",
+  "source_sha256": "46b9e755db3871c6cbf2e2bbcaf4c47ac9170ccbc6ffc52dc548379195e141ea",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-03",
+  "project_id": "revest",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 14465356
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "a54cd3227d2183c0d72045bf002bc202b87dd2a9fb45af301ef7e9e6628b7d88"
+}

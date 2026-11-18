@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2024-03-tgbs-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2024-03/TGBS_exp.sol",
+  "source_sha256": "562254e581912eba6f9ed508966cf1dc65a83e00fd3c1fb74a457675412b100e",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "tgbs",
+  "attack_family": "oracle+deflationary-token+flash-loan+accounting",
+  "incident_month": "2024-03",
+  "fixed_fork_block": 36725819,
+  "attack_tx_hash": "0xa0408770d158af99a10c60474d6433f4c20f3052e54423f4e590321341d4f2a4",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "10846ebefd2cdbcaadd30689aa85165e826906159c301f5f37c52491433f4f02"
+}

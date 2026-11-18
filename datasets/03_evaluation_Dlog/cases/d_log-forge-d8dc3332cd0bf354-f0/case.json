@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-d8dc3332cd0bf354-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/Solidified-Uniswap_V3_Liquidity_Manager_[24.06.2021].pdf.json",
+  "source_sha256": "42d49b3372bbad9127422d3e33b1728aac2046fb8c03f1ba20c83cab52a60bad",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/reflexer-labs/geb-uni-v3-manager",
+  "attack_family": "CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: 5d15f33bed17e7b6606de940e87c00f7b61ec0b1",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "10350f82f6d9016321e389b391656ee51b7e2b56c7f42d6d9c32fa6bbdec726b"
+}

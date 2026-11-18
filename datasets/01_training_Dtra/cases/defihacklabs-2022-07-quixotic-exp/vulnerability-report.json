@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-07-quixotic-exp",
+  "source_file": "src/test/2022-07/Quixotic_exp.sol",
+  "source_sha256": "a805cf22d401bfc84b3115c11cee18bc87fe3cbbd056074629190f235fa7462f",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-07",
+  "project_id": "quixotic",
+  "attack_family": "signature+price-manipulation+accounting",
+  "fork": {
+    "network": "optimism",
+    "block": 13591383
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "161595d22b11045c827303271205f091ebc5b8f20915dc3d77da55e2582d577b"
+}

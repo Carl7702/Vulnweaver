@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-e2a4eb2f1f8477eb-f2",
+  "dataset": "D_log",
+  "source_file": "dataset/results/Hacken-Fidometa-V2.pdf.json",
+  "source_sha256": "c862d9d83048b73e7d01ea2efd09353fe0ab363ce5fab4da79909d5046307073",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/fidometa/smart_contract",
+  "attack_family": "CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 2; severity critical",
+    "project commit: ad56b0ce678f77d162752dbb5d987d2f4a29fddf",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "358426c829eb878ece8e9683ba9b4ebd01a2d0f1f1f826e4142cca352b9bc3dc"
+}

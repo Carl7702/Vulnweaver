@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-olympusdao-exp",
+  "source_file": "src/test/2022-10/OlympusDao_exp.sol",
+  "source_sha256": "5bac4df343e5f0258dfec7e19768fba0ae6744f2b7b9590f6eb2bfc3a4bd6385",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "olympusdao",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15794363
+  },
+  "attack_tx_hash": "0x3ed75df83d907412af874b7998d911fdf990704da87c2b1a8cf95ca5d21504cf",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "18e5d71e02865cf2b1ce871000005f382182f18f404c07cd9e27ef3450270e86"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-53e838913e3f0803-f3",
+  "dataset": "D_log",
+  "source_file": "dataset/results/ConsenSys_Diligence-Optimism_SafetyChecker.pdf.json",
+  "source_sha256": "7c81930136fa8e6f4c7392898690e7913b33388ae352ab6aaf5375d31bae215a",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/ethereum-optimism/contracts",
+  "attack_family": "CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 3; severity critical",
+    "project commit: 606577457191973b46034602f46ddcc130a5c0ac",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "71216de9923165e987c57b7513a19e880d4f4519b2e0d857e5d1def11bce4867"
+}

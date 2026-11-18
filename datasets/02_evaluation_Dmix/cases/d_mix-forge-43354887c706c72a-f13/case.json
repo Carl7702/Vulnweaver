@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-43354887c706c72a-f13",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/IOTAMPC Bridge-Smart-Contract-Audit-Report-Numen.pdf.json",
+  "source_sha256": "35b6824285ec9b4c8791cd92268f560c8d09c9782cf428593ac06aa5328cc5ed",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/tanglepay/bridge",
+  "attack_family": "CWE-693",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 13; severity critical",
+    "project commit: 48ad2ac76b5d226502a3c8d7b96c9536c4dd3fa4",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "7ce8613fe25b8c14727f61e590cad7b8b65720d16649f332e44377897fac71bc"
+}

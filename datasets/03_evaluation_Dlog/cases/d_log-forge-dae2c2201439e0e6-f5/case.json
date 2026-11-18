@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-dae2c2201439e0e6-f5",
+  "dataset": "D_log",
+  "source_file": "dataset/results/[KALOS] DFX Finance v2 Audit Report.pdf.json",
+  "source_sha256": "211a060fa459bd31a789728f839c40422a041c669e04fa378e62c8a40f81ff29",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/dfx-finance/protocol-v2",
+  "attack_family": "CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 5; severity critical",
+    "project commit: 5b4482440c4c3b636398b968283bcbb014809455",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "e1e044b4300bd75835dc277766251be327f13971e93aab2d74697d01363d6903"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-ulme-exp",
+  "source_file": "src/test/2022-10/ULME_exp.sol",
+  "source_sha256": "e6e7699f62609c6563873926a0761a43671bb3cdc99a2ce63a6d91e36d5c0277",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "ulme",
+  "attack_family": "approval+deflationary-token+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 22476695
+  },
+  "attack_tx_hash": "0xdb9a13bc970b97824e082782e838bdff0b76b30d268f1d66aac507f1d43ff4ed",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "ca83f716e5e1b4699f6d86ee5dcc8a5f2104166a0823565ea5b9bb41c4141646"
+}

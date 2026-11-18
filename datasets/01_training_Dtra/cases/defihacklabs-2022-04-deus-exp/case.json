@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-04-deus-exp",
+  "source_file": "src/test/2022-04/deus_exp.sol",
+  "source_sha256": "3a82055f0016ca7ebc3649070e1540c47b172395aa645a3f04b89043f548d38c",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-04",
+  "project_id": "deus",
+  "attack_family": "oracle+price-manipulation+accounting",
+  "fork": {
+    "network": "fantom",
+    "block": 37093708
+  },
+  "attack_tx_hash": "0x33e48143c6ea17476eeabfa202d8034190ea3f2280b643e2570c54265fe33c98",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "1af09b55756f34ea73f95c8d1659d1a570c872ce1b67b6e50e4ca2256b4cd279"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-09-roi-exp",
+  "source_file": "src/test/2022-09/ROI_exp.sol",
+  "source_sha256": "bfa324da015c15ca276d06f82d2fa47d742d330f25c37698786cb484896dc235",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-09",
+  "project_id": "roi",
+  "attack_family": "access-control+approval+deflationary-token+price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 21143795
+  },
+  "attack_tx_hash": "0x0e14cb7eabeeb2a819c52f313c986a877c1fa19824e899d1b91875c11ba053b0",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "4a6444754dff00d9af6a108f1444b2097d10536995cf283a684d443e2fcc7f0e"
+}

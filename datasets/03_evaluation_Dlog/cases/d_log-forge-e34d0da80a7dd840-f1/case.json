@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-e34d0da80a7dd840-f1",
+  "dataset": "D_log",
+  "source_file": "dataset/results/Solidified-Loopring_Hebao_Wallet_[21.05.2020].pdf.json",
+  "source_sha256": "23166338a8b565d0e828582f9f51f9a2266adc8021abdf292a4a6a4db89cab4c",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/loopring/protocols",
+  "attack_family": "CWE-1265+CWE-691",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 1; severity critical",
+    "project commit: db7bf88f84a77270d7e6b67c3534d0d1eaedaacf",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "5c93e5711f084f8b7ab4229260619ca56d24ab149e7bc577a6670bceab8bb19b"
+}

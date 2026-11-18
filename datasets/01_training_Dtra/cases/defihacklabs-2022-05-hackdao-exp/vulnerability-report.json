@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-05-hackdao-exp",
+  "source_file": "src/test/2022-05/HackDao_exp.sol",
+  "source_sha256": "f92fbf10278d16dc6c6c112ea29a916e8929d0545f5547f65efa461a3e89ff21",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-05",
+  "project_id": "hackdao",
+  "attack_family": "deflationary-token+price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 18073756
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "d23739371a281b3d56b77669e631db7e1f4a9c9bd5c7a86f6f579089ac71073c"
+}

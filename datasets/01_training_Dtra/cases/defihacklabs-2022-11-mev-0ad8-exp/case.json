@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-11-mev-0ad8-exp",
+  "source_file": "src/test/2022-11/MEV_0ad8_exp.sol",
+  "source_sha256": "3d130f973e36c04b2043a51a848bc1603b107d2655151b09051a42e26dadb3c3",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-11",
+  "project_id": "mev-0ad8",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15926096
+  },
+  "attack_tx_hash": "0x674f74b30a3d7bdf15fa60a7c29d96a402ea894a055f624164a8009df98386a0",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "8e98a13094afda98e557cd098c3245a006715f6e138540e0eb09a95ef23f9ae0"
+}

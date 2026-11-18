@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-08-polynetwork-exp",
+  "source_file": "src/test/2021-08/PolyNetwork_exp.sol",
+  "source_sha256": "c2159157b5db1bcb6ad921a42cd5997215a49c7d7fb737bc7d2e2211787cb534",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-08",
+  "project_id": "polynetwork",
+  "attack_family": "access-control+signature+upgrade+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 12996658
+  },
+  "attack_tx_hash": "0xb1f70464bd95b774c6ce60fc706eb5f9e35cb5f06e6cfe7c17dcda46ffd59581",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "76d4fd332eaeea784c4866674badb23453f3f49ef64fe0805ff592c67d96dcd7"
+}

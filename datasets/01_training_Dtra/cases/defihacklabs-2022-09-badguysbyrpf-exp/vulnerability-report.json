@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-09-badguysbyrpf-exp",
+  "source_file": "src/test/2022-09/BadGuysbyRPF_exp.sol",
+  "source_sha256": "f56a441e2d2df6d54d1e7e8ae02739f750ba5a251ff72f78674b5b6241a9e28f",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-09",
+  "project_id": "badguysbyrpf",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15460093
+  },
+  "attack_tx_hash": "0xb613c68b00c532fe9b28a50a91c021d61a98d907d0217ab9b44cd8d6ae441d9f",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "e88e329c8d9d3960e7be9364020a5846adb8ae3be67a2d20a1c35484f3f0c2b7"
+}

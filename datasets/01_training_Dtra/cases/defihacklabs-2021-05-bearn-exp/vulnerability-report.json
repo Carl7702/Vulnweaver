@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-05-bearn-exp",
+  "source_file": "src/test/2021-05/bEarn_exp.sol",
+  "source_sha256": "97e91b898243c02804e460c983ddb67d9f7aa936d8e22e0bcd48d73c1d1fb860",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-05",
+  "project_id": "bearn",
+  "attack_family": "flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 7457124
+  },
+  "attack_tx_hash": "0x603b2bbe2a7d0877b22531735ff686a7caad866f6c0435c37b7b49e4bfd9a36c",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "3f0662a2bd0a4e8fcd07a50fdc984a549b5ff485faf7b4664a0e1d9b86212e2d"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-06-xcarnival-exp",
+  "source_file": "src/test/2022-06/XCarnival_exp.sol",
+  "source_sha256": "a0995a971b94dffb716741e1d557a7050fc2ce4e70c3a48b229408aa5d45c7b6",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-06",
+  "project_id": "xcarnival",
+  "attack_family": "signature+approval+upgrade+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15028846
+  },
+  "attack_tx_hash": "0x422e7b0a449deba30bfe922b5c34282efbdbf860205ff04b14fd8129c5b91433",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "e56564777ebc09050bdff13a38103dd4e62c26bb9c7b84808e2f449eb872995c"
+}

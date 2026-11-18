@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-af44fe11bc879075-f1",
+  "dataset": "D_log",
+  "source_file": "dataset/results/Primitive-Spearbit-Security-Review.pdf.json",
+  "source_sha256": "6b75af7f5f6c5e998a50ead5f0cbe7c2c97b2dbd1fe2df6dfb0095170fd7183e",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/primitivefinance/portfolio",
+  "attack_family": "CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 1; severity critical",
+    "project commit: b920d50d88763d112c73ed05ef7dc6c422dbceb2",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "bfbaa1ee73ece197b62e1f6be5d7909687808f863d9aa9d4714a6e803e9c0dea"
+}

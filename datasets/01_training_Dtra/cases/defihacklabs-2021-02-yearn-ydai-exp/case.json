@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-02-yearn-ydai-exp",
+  "source_file": "src/test/2021-02/Yearn_ydai_exp.sol",
+  "source_sha256": "98b018b00ffadc4157fc34e546c3a84f3824cbb440fd0dd0352a5977be89c72b",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-02",
+  "project_id": "yearn-ydai",
+  "attack_family": "rounding+approval+price-manipulation+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 11792183
+  },
+  "attack_tx_hash": "0x59faab5a1911618064f1ffa1e4649d85c99cfd9f0d64dcebbc1af7d7630da98b",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "3b42d33984d7ae911c1cb15fcd18caa3a1573aef93c3630890c18c0cb5274529"
+}

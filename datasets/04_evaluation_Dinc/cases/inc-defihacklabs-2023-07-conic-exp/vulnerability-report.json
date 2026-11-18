@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-07-conic-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-07/Conic_exp.sol",
+  "source_sha256": "8c6190ff8008f2fe222cc9ee6821ace439bc2fef1021f9d93dbd8b873cfca89e",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "conic",
+  "attack_family": "reentrancy+oracle+price-manipulation+flash-loan+accounting",
+  "incident_month": "2023-07",
+  "fixed_fork_block": 17740954,
+  "attack_tx_hash": "0x8b74995d1d61d3d7547575649136b8765acb22882960f0636941c44ec7bbe146",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "1d244e066693d6bf7f9d5009a4463489a65172245e170c9bd0fb01a5706ff0e5"
+}

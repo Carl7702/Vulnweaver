@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-06-harmony-multisig-exp",
+  "source_file": "src/test/2022-06/Harmony_multisig_exp.sol",
+  "source_sha256": "02ca5f2ea69ba2bbdc77acf19fc8dd9f95582d1bc93ed9524ec4fa95943b4a4c",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-06",
+  "project_id": "harmony-multisig",
+  "attack_family": "approval+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15012645
+  },
+  "attack_tx_hash": "0x27981c7289c372e601c9475e5b5466310be18ed10b59d1ac840145f6e7804c97",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "0724cbad493527848ac5768eda84fe143a324de53e656c815b659e3f1ddd561b"
+}

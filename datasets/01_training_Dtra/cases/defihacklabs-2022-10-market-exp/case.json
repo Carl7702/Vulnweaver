@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-market-exp",
+  "source_file": "src/test/2022-10/Market_exp.sol",
+  "source_sha256": "21cbd126063dd9ee6fd592113d3088dcfe0bfd44bec055455ab33643087389ed",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "market",
+  "attack_family": "reentrancy+oracle+deflationary-token+price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "polygon",
+    "block": 34716800
+  },
+  "attack_tx_hash": "0xb8efe839da0c89daa763f39f30577dc21937ae351c6f99336a0017e63d387558",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "a844549682539b271ff6e35ad571e7a2ab070601b1fe2e5275594a932c32178b"
+}

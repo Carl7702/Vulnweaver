@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-04-saddle-exp",
+  "source_file": "src/test/2022-04/Saddle_exp.sol",
+  "source_sha256": "99a82fd0bb49f7ec2ea5f1f03e59579aefcb6fb6612e9509f252df283cbd8839",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-04",
+  "project_id": "saddle",
+  "attack_family": "flash-loan+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 14684306
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "8e165cc3af1bf7c98938f60545e39c526398429f8ca89c5b8f5c4016ec72cbd3"
+}

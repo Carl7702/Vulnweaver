@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-03-dodo-flashloan-exp",
+  "source_file": "src/test/2021-03/dodo_flashloan_exp.sol",
+  "source_sha256": "124bf22a388fb6d45ac3628a2dd7dc22f1e7980ee722662a3282347d65f6d49a",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-03",
+  "project_id": "dodo-flashloan",
+  "attack_family": "flash-loan+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 12000000
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "24c989244b4cbdaec0dc54e979f5c02a7b3c8da332d376cbc84e3d26333b4db4"
+}

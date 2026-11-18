@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-03-umbrella-exp",
+  "source_file": "src/test/2022-03/Umbrella_exp.sol",
+  "source_sha256": "3309738817deb5508edd826442ce7fda60a29721fb16b92b9c0b2292c5321426",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-03",
+  "project_id": "umbrella",
+  "attack_family": "reentrancy+overflow+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 14421983
+  },
+  "attack_tx_hash": "0x33479bcfbc792aa0f8103ab0d7a3784788b5b0e1467c81ffbed1b7682660b4fa",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "c6dc25d722aa4d4b500e3d4f4626eb0d423a3d57810430573ef5652f23fd719e"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-aa88e1fe02871b3d-f13",
+  "dataset": "D_log",
+  "source_file": "dataset/results/ackee-blockchain-cow-protocol-composablecow-extensiblefallbackhandler-report.pdf.json",
+  "source_sha256": "e5f5f7bd201fcb4492aab1fdbd69a8404de2bf2daf16581d48069b5f2f613fdf",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/rndlabs/composable-cow",
+  "attack_family": "CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 13; severity critical",
+    "project commit: cd893fa",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "8734d6f3b143e2b749b64b1bea7d360f24780e7c96c3e0cb801208a39f87d09c"
+}

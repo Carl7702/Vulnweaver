@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-78bbf1422c18ed10-f1",
+  "dataset": "D_log",
+  "source_file": "dataset/results/2022-07-08_Yearn_veYFI(Voting_and_RewardPool).pdf.json",
+  "source_sha256": "7707d407fc2b30f437de75f28415e46f0bfac979e202f9ba3ecfbb71da10a57a",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/yearn/veyfi",
+  "attack_family": "CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 1; severity critical",
+    "project commit: fbda9ac523252920bf3295557f9f764725a23f41",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "dd9ed6cc8f8eca49457485e3cc0c3a50e18beeb7b9c38322afd0d578e75e57d6"
+}

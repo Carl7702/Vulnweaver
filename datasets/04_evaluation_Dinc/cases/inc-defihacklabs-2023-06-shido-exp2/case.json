@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-06-shido-exp2",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-06/SHIDO_exp2.sol",
+  "source_sha256": "b6f6c9138dcead4115a1d3057a9e098a7897e45a444f07a4037f4325412d7201",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "shido",
+  "attack_family": "oracle+approval+deflationary-token+price-manipulation+flash-loan+accounting",
+  "incident_month": "2023-06",
+  "fixed_fork_block": 29365171,
+  "attack_tx_hash": "0x72f8dd2bcfe2c9fbf0d933678170417802ac8a0d8995ff9a56bfbabe3aa712d6",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "2c98069b5c75349e74913ed957197cc26363b657ad3e3738fe02b56f9ef0a73c"
+}

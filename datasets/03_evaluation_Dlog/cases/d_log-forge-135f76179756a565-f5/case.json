@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-135f76179756a565-f5",
+  "dataset": "D_log",
+  "source_file": "dataset/results/ConsenSys_Diligence-Zer0_zNS.pdf.json",
+  "source_sha256": "9f3faa4096b890d9136a6452962f7a8565d9d5f88f7c3ff5c3db83c5fb1f07e5",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/zer0-os/zns",
+  "attack_family": "CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 5; severity critical",
+    "project commit: b05e503ea1ee87dbe62b1d58426aaa518068e395",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "abae44f10c92db66cac4b902f2f961b6200a9b7b49539835bea67c636d88ffbf"
+}

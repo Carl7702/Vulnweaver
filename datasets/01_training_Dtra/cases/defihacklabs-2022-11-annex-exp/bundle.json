@@ -1,0 +1,20 @@
+{
+  "case_id": "defihacklabs-2022-11-annex-exp",
+  "dataset": "D_tra",
+  "environment_manifest": null,
+  "environment_present": false,
+  "environment_status": "NOT_DISTRIBUTED",
+  "excluded_assets": [
+    "generated_poc",
+    "reference_poc",
+    "replay",
+    "workspace"
+  ],
+  "generated_poc_included": false,
+  "included_sources": [],
+  "reference_only": true,
+  "report_present": true,
+  "source_kind": "defihacklabs_exploit_source",
+  "source_present": false,
+  "status": "METADATA_READY"
+}

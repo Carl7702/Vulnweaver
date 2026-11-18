@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-vtf-exp",
+  "source_file": "src/test/2022-10/VTF_exp.sol",
+  "source_sha256": "406d6da4ec2634e61e566f967bb899dd6f291143100bffa3fa7d849edc79ef13",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "vtf",
+  "attack_family": "signature+deflationary-token+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 22535101
+  },
+  "attack_tx_hash": "0xeeaf7e9662a7488ea724223c5156e209b630cdc21c961b85868fe45b64d9b086",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "50dbc22d44a162dd9d374fd195b939a35423e936c16203be6cdf12290c223077"
+}

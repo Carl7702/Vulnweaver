@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-09-thb-exp",
+  "source_file": "src/test/2022-09/THB_exp.sol",
+  "source_sha256": "2bec26f07f8c44495bb01784047157dd5a6dbc865030a2e7a77c122cfd24087b",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-09",
+  "project_id": "thb",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 21785004
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "bbfb1150f8f46e3dc7dbeb95cbcfde3b3397557ffd18e79a1e2ff6334b08a8c6"
+}

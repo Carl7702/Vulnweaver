@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-12-lodestar-exp",
+  "source_file": "src/test/2022-12/Lodestar_exp.sol",
+  "source_sha256": "2e3df3ec79ac1117bb76c327b89eb72020450a19126acb2cafa7a74b92ad73b7",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-12",
+  "project_id": "lodestar",
+  "attack_family": "price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "arbitrum",
+    "block": 45121903
+  },
+  "attack_tx_hash": "0xc523c6307b025ebd9aef155ba792d1ba18d5d83f97c7a846f267d3d9a3004e8c",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "530675d2d977e2e871dadd8a9e46196aed138bb57a2ec00a4bb9e58191b3413d"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-12-dfs-exp",
+  "source_file": "src/test/2022-12/DFS_exp.sol",
+  "source_sha256": "b4623b4d284e6465b7d1774f218bf5c52d7ba446e0551836615a1d91524e0c92",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-12",
+  "project_id": "dfs",
+  "attack_family": "price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 24349821
+  },
+  "attack_tx_hash": "0xcddcb447d64c2ce4b3ac5ebaa6d42e26d3ed0ff3831c08923c53ea998f598a7c",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "674cf0f5ed985b1d638cc3da2619f3ee511b141eb6a990800c4d3f6725ca51c6"
+}

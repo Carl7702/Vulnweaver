@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-multicallwithoutcheck-exp",
+  "source_file": "src/test/2022-10/MulticallWithoutCheck_exp.sol",
+  "source_sha256": "24d903404b898fcda6b8a777e22bb1074fe71195874d0e77ab2eff0676a11fc7",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "multicallwithoutcheck",
+  "attack_family": "signature+accounting",
+  "fork": {
+    "network": "polygon",
+    "block": 34743770
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "93ab544d6d7d263fa8162d824e633e10c4f122e89a11a256474368ae0e19bc4e"
+}

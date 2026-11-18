@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-12-visor-exp",
+  "source_file": "src/test/2021-12/Visor_exp.sol",
+  "source_sha256": "b940f6bf00db087a501bc2ecc4895bcf0b9c397092e56e423525f3863527d698",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-12",
+  "project_id": "visor",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 13849006
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "e7f76a3443866d51d9042c48ea2d23edc364302798bd585a832acf794f319418"
+}

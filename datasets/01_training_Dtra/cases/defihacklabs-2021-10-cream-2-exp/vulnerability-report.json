@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-10-cream-2-exp",
+  "source_file": "src/test/2021-10/Cream_2_exp.sol",
+  "source_sha256": "da1e7ade506666557a9ef866042925f7b147e5ff954021b38e4e5369f9f4dfe5",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-10",
+  "project_id": "cream",
+  "attack_family": "signature+upgrade+price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 13499797
+  },
+  "attack_tx_hash": "0x0fe2542079644e107cbf13690eb9c2c65963ccb79089ff96bfaf8dced2331c92",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "9c62de928114acd86ae716f9782b5d7bf82e21a7c056cf150768a9a74ef3d047"
+}

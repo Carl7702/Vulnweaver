@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2024-08-aave-repay-adapter",
+  "dataset": "D_inc",
+  "source_file": "src/test/2024-08/AAVE_Repay_Adapter.sol",
+  "source_sha256": "7cc08bd3a5fa4345bbaeda3d5d02637f4aa0a330959daeb99fec4972abd5e7b7",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "aave-repay-adapter",
+  "attack_family": "oracle+rounding+signature+approval+upgrade+price-manipulation+flash-loan+accounting",
+  "incident_month": "2024-08",
+  "fixed_fork_block": 20624703,
+  "attack_tx_hash": "0xc27c3ec61c61309c9af35af062a834e0d6914f9352113617400577c0f2b0e9de",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "2fd18e3dc7359657ff41dfb79d295f1a080851c4e7b9ecfbce9e6dd4c9b23130"
+}

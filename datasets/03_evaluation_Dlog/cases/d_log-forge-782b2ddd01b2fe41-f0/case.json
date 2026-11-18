@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-782b2ddd01b2fe41-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/CertiK Security Assessment for Alpaca Finance 1.pdf.json",
+  "source_sha256": "ffd449c00f1cbad2008ad518978cc74b40c31909d9bde81745e8488d995ac347",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/alpaca-finance/bsc-alpaca-contract",
+  "attack_family": "CWE-372+CWE-664",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: 7b8389ac08f2025af8bad23af0ba7ea91ca94c26",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "2a8672978a6dc781c64767a16515fd8c72f2ab700268cf1b0093f61402aaf04a"
+}

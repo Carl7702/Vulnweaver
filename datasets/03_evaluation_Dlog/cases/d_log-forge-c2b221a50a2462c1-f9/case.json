@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-c2b221a50a2462c1-f9",
+  "dataset": "D_log",
+  "source_file": "dataset/results/Blockchain_Labs_NZ-Ecomi.pdf.json",
+  "source_sha256": "202ee39fe2a23a2ea7cf31a78991e35acde7bbd26e4474aedaf56214868aefaf",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/ecomi-ecosystem/tge-contract",
+  "attack_family": "CWE-691+CWE-841",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 9; severity critical",
+    "project commit: 81daf727bc584e3dce733e85dce29982e5dddb8c",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "073ab4f45759ed0faf277f4579158c543fbf580fb6faa0cae581d17abc84fb8f"
+}

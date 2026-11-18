@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-06-eleven-exp",
+  "source_file": "src/test/2021-06/Eleven_exp.sol",
+  "source_sha256": "7dcfe8b9845dccffaee2f66ac56e7b74ce6bf7797baf346f74da2520fd5bafa9",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-06",
+  "project_id": "eleven",
+  "attack_family": "flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 8530973
+  },
+  "attack_tx_hash": "0x6450d8f4db09972853e948bee44f2cb54b9df786dace774106cd28820e906789",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "164db0ea12f2d9336d8443fe18a8607f24420d1b623c71c09cfbb7e8bf10d35a"
+}

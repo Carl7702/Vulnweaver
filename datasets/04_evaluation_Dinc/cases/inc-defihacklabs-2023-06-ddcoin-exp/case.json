@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-06-ddcoin-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-06/DDCoin_exp.sol",
+  "source_sha256": "439ee19647366c2432099246aecd0dc421bba5602ed9b549d467a699f735c396",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "ddcoin",
+  "attack_family": "oracle+approval+price-manipulation+flash-loan+accounting",
+  "incident_month": "2023-06",
+  "fixed_fork_block": 28714107,
+  "attack_tx_hash": "0xd92bf51b9bf464420e1261cfcd8b291ee05d5fbffbfbb316ec95131779f80809",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "76833af9f9c7d5643a479270fe4fd77ea253d1babbdb0df6d86f958dd41c5161"
+}

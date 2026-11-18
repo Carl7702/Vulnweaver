@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-12-apc-exp",
+  "source_file": "src/test/2022-12/APC_exp.sol",
+  "source_sha256": "d4f5683479a0d7fb3a61961247d97977f2c73ebada1696a6338df8689eca6e8d",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-12",
+  "project_id": "apc",
+  "attack_family": "upgrade+deflationary-token+price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 23527906
+  },
+  "attack_tx_hash": "0xbcaecea2044101c80f186ce5327bec796cd9e054f0c240ddce93e2aead337370",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "38c974b7df8f31cef6964786e61a3893b8dcec66e04ec846eec1b487706aeb83"
+}

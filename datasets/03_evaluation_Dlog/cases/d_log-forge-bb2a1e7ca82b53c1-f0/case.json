@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-bb2a1e7ca82b53c1-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/ConsenSys_Diligence-Fairmint_Continuous_Securities_Offering.pdf.json",
+  "source_sha256": "5e0293c1372096f1e84e316561bd2e5ca9348278f69377852605a338abd7c079",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/fairmint/c-org",
+  "attack_family": "CWE-1265+CWE-691",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: 14f4e3e02b1d756d4d3caad34fbed07a9c0f09a1",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "d92acf95fca686ad5a4574d334892d0496c2d10f278871139d9edff4e8b4090e"
+}

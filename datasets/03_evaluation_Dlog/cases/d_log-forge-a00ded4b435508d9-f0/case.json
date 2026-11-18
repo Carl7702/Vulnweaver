@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-a00ded4b435508d9-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/Inspex-SuperLauncher_V.2.pdf.json",
+  "source_sha256": "e9dc99ce6a6fa70095b7a1a1b6c08bd0d8f59effdd51281407066b50e2f51a2f",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/superlauncher/v2-core",
+  "attack_family": "CWE-1265+CWE-691",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: 610d5a017c0ecc177d5425a45d5e74d20b4e3a80",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "af3214aeece36ba16f93d7cd08789316f5de68cabaa682f2c5efac71ed876758"
+}

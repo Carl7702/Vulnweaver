@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-09-nowswap-exp",
+  "source_file": "src/test/2021-09/NowSwap_exp.sol",
+  "source_sha256": "4e100dacb1843374fd88a30376fe13d92da9968abc369a80afb76d7454b8c815",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-09",
+  "project_id": "nowswap",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 13225516
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "ff32057343cfa8b20281090efd8aa0cc3af23477540f50c303bcbe2b41930e4e"
+}

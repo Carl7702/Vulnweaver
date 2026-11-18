@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-2b639f96d377ad87-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/Nucleon_01012021_SCAudit_Report3.pdf.json",
+  "source_sha256": "6fa512dd8cca0a6ce7419dc2e31aa00498891bb6819314def0fe68368bb35023",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/article-i/espace",
+  "attack_family": "CWE-284+CWE-285+CWE-862",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: c70be17a0bfebbe4a4456892b1f14a55b81356c2",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "35f9ef7e19ae66b0f08f606b595f2e37eb97d154f18070d8abe284c87026643b"
+}

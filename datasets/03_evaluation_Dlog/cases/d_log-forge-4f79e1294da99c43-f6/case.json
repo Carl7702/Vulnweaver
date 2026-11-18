@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-4f79e1294da99c43-f6",
+  "dataset": "D_log",
+  "source_file": "dataset/results/Inspex_AUDIT2022048_Perp88_PerpetualTradingStaking_FullReport_v1.0.pdf.json",
+  "source_sha256": "75f02c307e76e6a03afbf1374e9f9ae680c07b7fbf2f3584a6662126bf7d3ed7",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/perp88/contracts",
+  "attack_family": "CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 6; severity critical",
+    "project commit: 95e6e456fd170b480935c6df547a23b14e5c0d9f",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "6f9266b9c15d06c36f60a606c391dce3f5d40b09bff9eaae754a66ec3082fa9a"
+}

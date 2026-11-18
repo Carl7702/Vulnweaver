@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-08-waultfinance-exp",
+  "source_file": "src/test/2021-08/WaultFinance_exp.sol",
+  "source_sha256": "bae5f93d778db7d82c7386222e37d00473c7d9ad0b3e82fb8242b07a068c1631",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-08",
+  "project_id": "waultfinance",
+  "attack_family": "deflationary-token+price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 9728755
+  },
+  "attack_tx_hash": "0x31262f15a5b82999bf8d9d0f7e58dcb1656108e6031a2797b612216a95e1670e",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "2abd33b8b05bc8c54122ea851d620cb727d65b9efe6ab752bcb1d04d68b6db82"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-08-egd-finance-exp",
+  "source_file": "src/test/2022-08/EGD_Finance_exp.sol",
+  "source_sha256": "76f23fb6faca071b7a100ca7056950f9cc5a1d22fea50a7d5ff63c4215a7618e",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-08",
+  "project_id": "egd-finance",
+  "attack_family": "oracle+upgrade+deflationary-token+price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 20245522
+  },
+  "attack_tx_hash": "0x50da0b1b6e34bce59769157df769eb45fa11efc7d0e292900d6b0a86ae66a2b3",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "bc97bfda3fe66171e7a352968807e01651b17635ca805de9c4fb62edb6ce73f0"
+}

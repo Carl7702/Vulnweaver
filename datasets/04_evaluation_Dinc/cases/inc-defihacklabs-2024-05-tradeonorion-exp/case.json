@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2024-05-tradeonorion-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2024-05/Tradeonorion_exp.sol",
+  "source_sha256": "0f8fb071182d6efd22a9fd6aff75793e79af412010ff127e80522233fa5f498b",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "tradeonorion",
+  "attack_family": "oracle+signature+price-manipulation+accounting",
+  "incident_month": "2024-05",
+  "fixed_fork_block": 39104878,
+  "attack_tx_hash": "0x660837a1640dd9cc0561ab7ff6c85325edebfa17d8b11a3bb94457ba6dcae18c",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "4d3140748d85aa8e18608e5e62018e2310ba0e335f1f84699e56d52f94248a86"
+}

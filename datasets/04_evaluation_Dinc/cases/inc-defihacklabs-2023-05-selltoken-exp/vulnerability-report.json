@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-05-selltoken-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-05/SellToken_exp.sol",
+  "source_sha256": "1e9b4f0bb03280c0e9908c0610c9d7c31183ae1603bd4b3cbdfad69a497f57a4",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "selltoken",
+  "attack_family": "oracle+deflationary-token+price-manipulation+flash-loan+accounting",
+  "incident_month": "2023-05",
+  "fixed_fork_block": 28168034,
+  "attack_tx_hash": "0x7d04e953dad4c880ad72b655a9f56bc5638bf4908213ee9e74360e56fa8d7c6a",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "9257383dbe8d721266657cf7040acfa1b5989caf24c802237729b9996efa5568"
+}

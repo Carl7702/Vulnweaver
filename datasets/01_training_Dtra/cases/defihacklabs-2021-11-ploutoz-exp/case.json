@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-11-ploutoz-exp",
+  "source_file": "src/test/2021-11/Ploutoz_exp.sol",
+  "source_sha256": "cceb6324ca1dc31edabd5dc097ff3f1078ce98dc0e056c54bd6ff74dc7d70e08",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-11",
+  "project_id": "ploutoz",
+  "attack_family": "price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 12886415
+  },
+  "attack_tx_hash": "0x7fe46c2746855dd57e18f4d33522849ff192e4e26c74835799ba8dab89099457",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "7a7d2ee038d3806b5cbb00bcd15ea008fba055a68e4f2e7c1882100d4474caa2"
+}

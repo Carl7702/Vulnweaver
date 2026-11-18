@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-c1d739d08b7e7090-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/In-protocol Coverage.md.json",
+  "source_sha256": "43894fa06701e5aa7d2316ae41246d10e5651a7971c7c1e705cf010aa76b3dd9",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/lidofinance/lido-dao",
+  "attack_family": "CWE-664",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: ee1991b3bbea2a24b042b0a4433be04301992656",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "84b6e0547d27e01490dfa4d5daeb238028c92cd8c5df5ec3429ddabc10a47f5c"
+}

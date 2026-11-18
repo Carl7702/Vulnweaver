@@ -1,0 +1,15 @@
+{
+  "case_count": 568,
+  "datasets": {
+    "D_cve": 18,
+    "D_inc": 123,
+    "D_log": 122,
+    "D_mix": 121,
+    "D_tra": 184
+  },
+  "generated_poc_files": 0,
+  "layout": "Each split contains self-contained case directories.",
+  "report_files": 568,
+  "schema_version": "2.0-public",
+  "source_files": 15866
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-db2e97e4ded1bd49-f3",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/GnosisSafe.pdf.json",
+  "source_sha256": "b795acbd663761552356f12154226ea1d379588a6cbb1d2a9cc3edb969475005",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/gnosis/safe-contracts",
+  "attack_family": "CWE-284+CWE-285+CWE-862",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 3; severity critical",
+    "project commit: bfb8abac580d76dd44f68307a5356a919c6cfb9b",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "54726e12fbd39868a52fed04df19fe9215300290d95bb2cfb810377d9d8c1e4d"
+}

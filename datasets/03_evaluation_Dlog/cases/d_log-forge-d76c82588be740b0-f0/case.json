@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-d76c82588be740b0-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/Solidified-Hodl2_[05.11.2020].pdf.json",
+  "source_sha256": "f8a65d82b5c639b73cc3f17e07e8fb26993e77b46bcefe009f9b6dd0981fa6a8",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/hodlcommodity/hodldex2",
+  "attack_family": "CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: 941ab6fb40fc8c4b4ce95f5866618f6367812249",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "298c04d146deed90ab8e757b66e78097dbf40af5025b951424adf82600060cdc"
+}

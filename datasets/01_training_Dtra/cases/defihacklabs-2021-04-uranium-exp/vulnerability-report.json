@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-04-uranium-exp",
+  "source_file": "src/test/2021-04/Uranium_exp.sol",
+  "source_sha256": "d3c7d96485eafc8aaf71397dae163bd31cac7866e5c6b11aa14ec7a255b11963",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-04",
+  "project_id": "uranium",
+  "attack_family": "price-manipulation+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 6920000
+  },
+  "attack_tx_hash": "0x5a504fe72ef7fc76dfeb4d979e533af4e23fe37e90b5516186d5787893c37991",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "39799de72b75c4b5a781cb853cf50d3eb126bb6e13b1c09787fb0d5d4d59299f"
+}

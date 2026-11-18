@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-05-melo-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-05/Melo_exp.sol",
+  "source_sha256": "d3d8ee6ed1984e9f8895711663860cd4e87a2df7b540b5ace2bf1492956460aa",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "melo",
+  "attack_family": "access-control+deflationary-token+accounting",
+  "incident_month": "2023-05",
+  "fixed_fork_block": 27960445,
+  "attack_tx_hash": "0x3f1973fe56de5ecd59a815d3b14741cf48385903b0ccfe248f7f10c2765061f7",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "d847332eb8bf4e3196135cdf12e06da9628ff552ae27da86e846620dfec9957d"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-11-sdao-exp",
+  "source_file": "src/test/2022-11/SDAO_exp.sol",
+  "source_sha256": "8831835584fc9151047d84046fd70bfa7221a8fbf35be52f08d7b09214bac4f5",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-11",
+  "project_id": "sdao",
+  "attack_family": "deflationary-token+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 23241440
+  },
+  "attack_tx_hash": "0xb3ac111d294ea9dedfd99349304a9606df0b572d05da8cedf47ba169d10791ed",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "2344833ef761275f21a17e99feffe711e286565bf06ea5cbdcc076a645d16c12"
+}

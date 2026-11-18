@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-07-levyathan-exp",
+  "source_file": "src/test/2021-07/Levyathan_exp.sol",
+  "source_sha256": "d639d357c57d955d0ff60dc7045c8939042abca4fafd39ce49dc4767dcfcee21",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-07",
+  "project_id": "levyathan",
+  "attack_family": "other",
+  "fork": {
+    "network": "bsc",
+    "block": 9545966
+  },
+  "attack_tx_hash": "0xfd30def124c1345606598ae4817ae184fc1918fc638111c6e71bc9752361fd87",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "060bd722b079f2cf091189683b80a7fd7952caf38096c1e5c4c08ce8ac37b9af"
+}

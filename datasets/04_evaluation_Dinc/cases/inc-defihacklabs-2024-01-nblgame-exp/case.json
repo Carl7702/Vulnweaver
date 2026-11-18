@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2024-01-nblgame-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2024-01/NBLGAME_exp.sol",
+  "source_sha256": "58b8409546c374f8c481e0329ab2f35914cded1a73aaa4c9d5cb9e1a2e2f1c65",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "nblgame",
+  "attack_family": "reentrancy+approval+price-manipulation+flash-loan+accounting",
+  "incident_month": "2024-01",
+  "fixed_fork_block": 115293068,
+  "attack_tx_hash": "0xf4fc3b638f1a377cf22b729199a9aeb27fc62fe2983a65c4d14b99ee5c5b2328",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "d632f04c6862858f86cf65407f5f20b6b13657407c3b59944f2208caf33bf527"
+}

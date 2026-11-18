@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-05-bayc-apecoin-exp",
+  "source_file": "src/test/2022-05/Bayc_apecoin_exp.sol",
+  "source_sha256": "23c2dff00e248a8f17b4bb41ceb1577c97a630ba8242ab134b1a1fe90107bc5b",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-05",
+  "project_id": "bayc-apecoin",
+  "attack_family": "approval+flash-loan+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 14403948
+  },
+  "attack_tx_hash": "0xeb8c3bebed11e2e4fcd30cbfc2fb3c55c4ca166003c7f7d319e78eaab9747098",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "26c9546c1077f79043e5921c7845edc595ea55e6de4b2b0863d7127502a1e737"
+}

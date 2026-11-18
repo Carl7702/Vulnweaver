@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-9613388148e300f8-f0",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/HaggleX - Audit Report.pdf.json",
+  "source_sha256": "687d40c7a46dc4473390603bf0740bb5bb266feb32b405b2f8bdc34f5cf7d3ab",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/hagglexhq/hag-token",
+  "attack_family": "CWE-400+CWE-664+CWE-770",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity high",
+    "project commit: 9c2d7821bf5740afc4437c9a2bd3ace7ec883137",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "7016b187dee4748ea9bb1a8fb72e94ba5fd73aaeee3c9bb6c25dfda09d015388"
+}

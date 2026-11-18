@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-09-dpc-exp",
+  "source_file": "src/test/2022-09/DPC_exp.sol",
+  "source_sha256": "78cdd633afacee3f7fd347010c83827d3399ed7c835ed14c7251af13dbe00f66",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-09",
+  "project_id": "dpc",
+  "attack_family": "deflationary-token+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 21179209
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "5439ec034b4059054d6207a2560f030cba3a93bb43ddf277ae361280cf60464d"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-11eead1a37b80dfa-f4",
+  "dataset": "D_log",
+  "source_file": "dataset/results/ApeX_final_Secure3_Audit_Report.pdf.json",
+  "source_sha256": "365f28235f21251a985fa3f5cfb9ba73d1858172dd74691618c4f40a50a468c1",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/apex-protocol/periphery",
+  "attack_family": "CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 4; severity critical",
+    "project commit: 4661330a339e1e7e5888ec7d7e457f6ee8c1af53, 2fa3161d72e21908a012cac778bfafc45819e46e",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "c0d340cb281aaae3fc4ea4117821f123bb094ba553f20772bf13e4baaf62ae56"
+}

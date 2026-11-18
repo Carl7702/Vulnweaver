@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-1270c1b11e06f696-f0",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/ConsenSys_Diligence-PoolTogether_Pods.pdf.json",
+  "source_sha256": "deebd3cdc32379f66618e7ad264ffc7e661dadd5cee1e2c8d0ed53b42a0e76de",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/pooltogether/pods-v3-contracts",
+  "attack_family": "CWE-15+CWE-610+CWE-664",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: 879dc8b911fc506dd6bead1f36eade919ccfea57",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "c78bbe97d5cf31bbbe287a70f42b2737d634c07e66297a46c7b32d4a7e813e5e"
+}

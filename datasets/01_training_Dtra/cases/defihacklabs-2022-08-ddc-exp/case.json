@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-08-ddc-exp",
+  "source_file": "src/test/2022-08/DDC_exp.sol",
+  "source_sha256": "5b2edaf9ad7e627615562d609d17b87932961c3c5032e694731f3afa0eece8cd",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-08",
+  "project_id": "ddc",
+  "attack_family": "deflationary-token+price-manipulation+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 20840079
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "e405e2188d2ddf0d1904aa2264d81cc4cde93d709a95c216d6d1151e0e5543f4"
+}

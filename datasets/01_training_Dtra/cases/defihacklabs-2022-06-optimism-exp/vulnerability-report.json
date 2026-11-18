@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-06-optimism-exp",
+  "source_file": "src/test/2022-06/Optimism_exp.sol",
+  "source_sha256": "30f7c69bfe25b1398787ac9f9b6c1e27ab21a2ccfb5128d2421e240a47cd93b2",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-06",
+  "project_id": "optimism",
+  "attack_family": "upgrade",
+  "fork": {
+    "network": "optimism",
+    "block": 10607735
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "23cde2bdae388c7759e8eb57399b33f9a091c3abafaa85094d30960a3fdcde9f"
+}

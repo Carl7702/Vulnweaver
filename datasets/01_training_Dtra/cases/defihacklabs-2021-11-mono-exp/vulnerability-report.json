@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-11-mono-exp",
+  "source_file": "src/test/2021-11/Mono_exp.sol",
+  "source_sha256": "d6c68040e8b24aafa73f5353c1c51b713e2cf99f270ab1d019bd6b8aed168e54",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-11",
+  "project_id": "mono",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 13715025
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "fec2a6e6e12892b976568462485fe041892bb9431cd9d00c727878a5def8943b"
+}

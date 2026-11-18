@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-0a09302157cd0333-f8",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/Inspex_AUDIT2022046_Powaa_Farm_FullReport_v5.0.pdf.json",
+  "source_sha256": "c01a65e4ed54ec92670f4208eab1e548adb95404d4385a712398f379d3d72e84",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/powaa-protocol/powaa-contract",
+  "attack_family": "CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 8; severity high",
+    "project commit: 977b2c3267fff6d9760c486f6754d25629cb345f",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "cfa4f4c64275466bf1517936a484f95cb8c91198b7968b8fe23b9b9a893f0701"
+}

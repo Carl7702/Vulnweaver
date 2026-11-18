@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-bego-exp",
+  "source_file": "src/test/2022-10/BEGO_exp.sol",
+  "source_sha256": "f9e3d2bc09c65b2478adbe04ff525ac5e390a107e797649d4a8252639ffd3388",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "bego",
+  "attack_family": "deflationary-token+price-manipulation+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 22315679
+  },
+  "attack_tx_hash": "0x9f4ef3cc55b016ea6b867807a09f80d1b2e36f6cd6fccfaf0182f46060332c57",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "e7149df4d0656635234937d6a6564fce9d8388c14c4c68a4ac311422a7455eb1"
+}

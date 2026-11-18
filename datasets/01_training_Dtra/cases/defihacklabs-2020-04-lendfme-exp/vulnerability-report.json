@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2020-04-lendfme-exp",
+  "source_file": "src/test/2020-04/LendfMe_exp.sol",
+  "source_sha256": "13c4d010ba6311559673009f1f5b1ef74c6c1827d06140c62a5e7600ccfbf3b0",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2020-04",
+  "project_id": "lendfme",
+  "attack_family": "reentrancy+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 9899725
+  },
+  "attack_tx_hash": "0xae7d664bdfcc54220df4f18d339005c6faf6e62c9ca79c56387bc0389274363b",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "0876d44acd063a6f0f421a9bd0b8b28a8646e6ef156fdb784c0afc405a6eea39"
+}

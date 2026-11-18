@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-08-xst-exp",
+  "source_file": "src/test/2022-08/XST_exp.sol",
+  "source_sha256": "4b13f6a0fa4f6c90cab4e2456bc53fd7ce51959e3174e553d53c0a324b7f2deb",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-08",
+  "project_id": "xst",
+  "attack_family": "price-manipulation+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15310016
+  },
+  "attack_tx_hash": "0x873f7c77d5489c1990f701e9bb312c103c5ebcdcf0a472db726730814bfd55f3",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "16931fc95284eb25e4e1bbe572fde11277bdedc2160e96e2651184a0e5c4ca37"
+}

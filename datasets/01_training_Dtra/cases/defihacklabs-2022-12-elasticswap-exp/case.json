@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-12-elasticswap-exp",
+  "source_file": "src/test/2022-12/ElasticSwap_exp.sol",
+  "source_sha256": "d58046301c0e9d6bddb9e68d0608b5d29e3fd3a6443abc9b98b887bb0f925a2c",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-12",
+  "project_id": "elasticswap",
+  "attack_family": "price-manipulation+accounting",
+  "fork": {
+    "network": "avalanche",
+    "block": 23563709
+  },
+  "attack_tx_hash": "0xb36486f032a450782d5d2fac118ea90a6d3b08cac3409d949c59b43bcd6dbb8f",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "c7f05662ed0acce414baba17b0c36b10892aba87b71fdc6ead00bdc059779230"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-04-zeed-exp",
+  "source_file": "src/test/2022-04/Zeed_exp.sol",
+  "source_sha256": "73d4fc78a7ff07aa9de851073c7e07ebdd73d4f931a97bfe06cf09472b1573a4",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-04",
+  "project_id": "zeed",
+  "attack_family": "price-manipulation+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 17132514
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "82c6d3529d146b0ce90b820c7ba0a2455dca9f25eb09ea21da32dfd60e87d5e2"
+}

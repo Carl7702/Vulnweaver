@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2018-10-spankchain-exp",
+  "source_file": "src/test/2018-10/SpankChain_exp.sol",
+  "source_sha256": "e6e79f1d9dbbbc99919aa8d28a0be85c0208eee27650a2e834c9c5a10b616af5",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2018-10",
+  "project_id": "spankchain",
+  "attack_family": "flash-loan+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 6467247
+  },
+  "attack_tx_hash": "0x21e9d20b57f6ae60dac23466c8395d47f42dc24628e5a31f224567a2b4effa88",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "220c47d970ed31b19b850d3b9a84743e07011a112b0435e005d6d84b8c0bdfec"
+}

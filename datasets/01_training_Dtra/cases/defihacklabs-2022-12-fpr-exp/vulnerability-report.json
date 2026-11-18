@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-12-fpr-exp",
+  "source_file": "src/test/2022-12/FPR_exp.sol",
+  "source_sha256": "6ee31ba08b38d827caa570ff38c9e351411d5815867d2e430c4236a2756ee514",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-12",
+  "project_id": "fpr",
+  "attack_family": "deflationary-token+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 23904152
+  },
+  "attack_tx_hash": "0xec1b969e1435a1449dd5179404c54b5c60e49f15a1bf6bf8922e8d2978102f4a",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "836fbc591cb6adf6b42560e680c00eba623251ef8c7aa6094565d7a8b6eda00f"
+}

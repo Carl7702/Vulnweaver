@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-d582f733ea9ccfd6-f1",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/Inspex-AutoCompound.pdf.json",
+  "source_sha256": "d4bcdac53fccb9eb097233c61a5adddd70af982588ddef396913b7b24ee4fc1e",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/killswitchofficial/auto-compound-v2",
+  "attack_family": "CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 1; severity high",
+    "project commit: 75a67eac40bd176b63bc0c6c939e0f63b987247f",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "dc7b7c8af919fe38ddc0fdd65c6eac0fe238d4e8f65ee00226113713df001801"
+}

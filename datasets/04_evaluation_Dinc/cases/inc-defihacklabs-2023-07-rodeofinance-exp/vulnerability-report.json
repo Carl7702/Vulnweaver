@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-07-rodeofinance-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-07/RodeoFinance_exp.sol",
+  "source_sha256": "94559dbb1edcd429c7d941067a7e6bab10a35731769c1b0ab005c9bb86835b6e",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "rodeofinance",
+  "attack_family": "oracle+deflationary-token+price-manipulation+flash-loan+accounting",
+  "incident_month": "2023-07",
+  "fixed_fork_block": 110043452,
+  "attack_tx_hash": "0xb1be5dee3852c818af742f5dd44def285b497ffc5c2eda0d893af542a09fb25a",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "9f261dac66fec2451dca825dec52f959fe3c056b8f10a746ae72dec6242fc93a"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-n00d-exp",
+  "source_file": "src/test/2022-10/N00d_exp.sol",
+  "source_sha256": "1cc00da76422804e8ac6c865f196fea1cf1cc60ed9d1bd02e34ccbec8c6d90d1",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "n00d",
+  "attack_family": "price-manipulation+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15826379
+  },
+  "attack_tx_hash": "0x8037b3dc0bf9d5d396c10506824096afb8125ea96ada011d35faa89fa3893aea",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "a196136878a38ba445eeb45d32e1d62b38197fa8b9519da29d13632a89fe142f"
+}

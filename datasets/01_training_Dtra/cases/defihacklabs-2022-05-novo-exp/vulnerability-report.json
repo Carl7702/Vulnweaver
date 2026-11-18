@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-05-novo-exp",
+  "source_file": "src/test/2022-05/Novo_exp.sol",
+  "source_sha256": "06901226b120dfe69c28ac438cd6e7ec8cd4704c9d89c6b222bc5a63bbd9dd67",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-05",
+  "project_id": "novo",
+  "attack_family": "deflationary-token+price-manipulation+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 18225002
+  },
+  "attack_tx_hash": "0xc346adf14e5082e6df5aeae650f3d7f606d7e08247c2b856510766b4dfcdc57f",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "507b9ebc066d01c770caea284a1875279df4fd6d9a1c46f5e0bdcd7cfd3434b0"
+}

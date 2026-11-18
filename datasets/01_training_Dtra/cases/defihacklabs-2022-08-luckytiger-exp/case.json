@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-08-luckytiger-exp",
+  "source_file": "src/test/2022-08/LuckyTiger_exp.sol",
+  "source_sha256": "ea4a3374aa48e4739837df610af014ea7e8ff65c3e25f6a9b4f9c504e9728118",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-08",
+  "project_id": "luckytiger",
+  "attack_family": "signature+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 15403430
+  },
+  "attack_tx_hash": "0x804ff3801542bff435a5d733f4d8a93a535d73d0de0f843fd979756a7eab26af",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "191fafe560ef4a3407093be563fdbbabb7e841276f44058e37765667d821186c"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-09-0x0dex-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-09/0x0DEX_exp.sol",
+  "source_sha256": "575c03a8df0ad9ebd40b1641ead1a0beed830925191b181abe5260f05ded7ccd",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "0x0dex",
+  "attack_family": "overflow+signature+flash-loan+accounting",
+  "incident_month": "2023-09",
+  "fixed_fork_block": 18115707,
+  "attack_tx_hash": "0x00b375f8e90fc54c1345b33c686977ebec26877e2c8cac165429927a6c9bdbec",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "d67525ec8a9fe8617ae2773efcc8909336d70337e9aa48529689df268be7819c"
+}

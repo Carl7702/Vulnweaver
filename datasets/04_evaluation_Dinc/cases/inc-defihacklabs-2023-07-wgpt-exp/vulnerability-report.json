@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-07-wgpt-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-07/WGPT_exp.sol",
+  "source_sha256": "6592172eefcd4ebe299d9c3e6f0e2fd005bff8dc27c23a80bddb223e007510bb",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "wgpt",
+  "attack_family": "oracle+approval+flash-loan+accounting",
+  "incident_month": "2023-07",
+  "fixed_fork_block": 29891709,
+  "attack_tx_hash": "0x258e53526e5a48feb1e4beadbf7ee53e07e816681ea297332533371032446bfd",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "56f8d1705b78fceff39716f0dc98af1869e843e3458e552a75384e1f9e7e1f27"
+}

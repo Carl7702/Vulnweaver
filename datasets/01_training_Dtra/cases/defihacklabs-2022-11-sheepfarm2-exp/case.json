@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-11-sheepfarm2-exp",
+  "source_file": "src/test/2022-11/SheepFarm2_exp.sol",
+  "source_sha256": "d52f738f6c3b78f47f3a55f690372581511841aa602eeed0dffab87239903c2e",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-11",
+  "project_id": "sheepfarm2",
+  "attack_family": "upgrade+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 23089184
+  },
+  "attack_tx_hash": "0x8b3e0e3ea04829f941ca24c85032c3b4aeb1f8b1b278262901c2c5847dc72f1c",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "6232e9af42f0dbb50f6a21b0ed1987345c6f5b9cf9b1b741586cf02709bf0046"
+}

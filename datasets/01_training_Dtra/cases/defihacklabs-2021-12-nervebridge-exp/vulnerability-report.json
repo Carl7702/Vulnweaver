@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-12-nervebridge-exp",
+  "source_file": "src/test/2021-12/NerveBridge_exp.sol",
+  "source_sha256": "a765f759e2988103e367243189014437219b5bf52623f12a6992ee253c69f2d9",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-12",
+  "project_id": "nervebridge",
+  "attack_family": "bridge+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 12653565
+  },
+  "attack_tx_hash": "0xea95925eb0438e04d0d81dc270a99ca9fa18b94ca8c6e34272fc9e09266fcf1d",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "83ccf2410409a86f3d2d0efc8a3230fa08a7b966fa3ab1afb0644fae0cf1a06d"
+}

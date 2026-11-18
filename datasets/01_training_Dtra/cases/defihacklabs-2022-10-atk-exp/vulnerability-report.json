@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-atk-exp",
+  "source_file": "src/test/2022-10/ATK_exp.sol",
+  "source_sha256": "2b745891194ddf6395b531d53932569574210be4151f3b7dcca2b78d3f365bcb",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "atk",
+  "attack_family": "signature+deflationary-token+price-manipulation+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 22102838
+  },
+  "attack_tx_hash": "0xb181e88e6b37ee9986f2a57aefb94779402fdb928654aa7c1dda5138b90d0e14",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "3a06eefc4005391e0ab542ec5e603b00236345436c453a8dbc1b0f915052e9ec"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-07-lpc-exp",
+  "source_file": "src/test/2022-07/LPC_exp.sol",
+  "source_sha256": "818af54b528b3b1593235fbc0023fa91ecc82d594299b172d56786a943be5a37",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-07",
+  "project_id": "lpc",
+  "attack_family": "price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 19852596
+  },
+  "attack_tx_hash": "0x0e970ed84424d8ea51f6460ce6105ab68441d4450a80bc8d749fdf01e504ed8c",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "db2f80a26ebe7900e142f4960c23b9c3415e0991cb7055a5dd76184dcabd36e0"
+}

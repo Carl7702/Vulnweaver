@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-12-tifi-exp",
+  "source_file": "src/test/2022-12/TIFI_exp.sol",
+  "source_sha256": "8d530a446ff0dcc320b355baf3d327cb18e54d64b04e9a9c9493101a01b655ca",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-12",
+  "project_id": "tifi",
+  "attack_family": "deflationary-token+price-manipulation+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 23778726
+  },
+  "attack_tx_hash": "0x1c5272ce35338c57c6b9ea710a09766a17bbf14b61438940c3072ed49bfec402",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "bb8a6c312e0b498092441ba19e1eba662719749bf5e585bb245f2412786e1909"
+}

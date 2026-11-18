@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-ceac31d24b65cdb4-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/SlowMist Audit Report - Helio Money_en-us.pdf.json",
+  "source_sha256": "1fbe3ad095540ca514b6e4816315e52557de0c1e0ebe95b5a45c5fdab70210d9",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/agiledev624/helio-smart-contracts",
+  "attack_family": "CWE-362+CWE-691",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: b8587950d2b1bcc62a8ab3d99198cbae12bc5c78",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "98ff88b5c77dfa50ffe1b50675d98e083ee4d6a86544260dd6626184d25d4b42"
+}

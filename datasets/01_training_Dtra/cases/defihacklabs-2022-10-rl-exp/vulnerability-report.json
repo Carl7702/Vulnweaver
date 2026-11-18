@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-10-rl-exp",
+  "source_file": "src/test/2022-10/RL_exp.sol",
+  "source_sha256": "12e7f7e95046e55a04492ff10b0aa4c3939fba311a27a686995138e5dc7aaa4d",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-10",
+  "project_id": "rl",
+  "attack_family": "signature+deflationary-token+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 21794289
+  },
+  "attack_tx_hash": "0xe15d261403612571edf8ea8be78458b88989cf1877f0b51af9159a76b74cb466",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "a090ee2641b42bcdd098db57e61f5493c8b031ecef1c502bbbb36fdbaf669d0e"
+}

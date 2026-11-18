@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-12-channelsfinance-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-12/ChannelsFinance_exp.sol",
+  "source_sha256": "e7278b2e6dd9b71115789f27b4854d469cec661222f1d806b78aa45cf6d2fad9",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "channelsfinance",
+  "attack_family": "rounding+overflow+price-manipulation+accounting",
+  "incident_month": "2023-12",
+  "fixed_fork_block": 34806205,
+  "attack_tx_hash": "0x711cc4ceb9701d317fe9aa47187425e16dae7d5a0113f1430e891018262f8fb5",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "d0272b11f6dcf3df6eed52bfaeec12e74326560aa9897e0708e7918c6563b955"
+}

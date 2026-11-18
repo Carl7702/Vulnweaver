@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-04-cftoken-exp",
+  "source_file": "src/test/2022-04/cftoken_exp.sol",
+  "source_sha256": "eb950f91ef86b90a6c184503f8f0db9bb7bef7bfe689db8737250336e848725a",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-04",
+  "project_id": "cftoken",
+  "attack_family": "accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 16841980
+  },
+  "attack_tx_hash": "0xc7647406542f8f2473a06fea142d223022370aa5722c044c2b7ea030b8965dd0",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "7168ada5e5d71229fd6801db281f24b635acffd576be30d9ca5bbaa3f489c916"
+}

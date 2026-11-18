@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-a5c1cdb794e6eedd-f0",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/MesonProtocolFixReview.pdf.json",
+  "source_sha256": "d8d66119d250f69ae3bc4c9cf4ed24f9ea027c7a3fedbfe7b4ae704599b87337",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/mesonfi/meson-contracts-solidity",
+  "attack_family": "CWE-693",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity high",
+    "project commit: d89ccc23d3c28d12d7110578d08903864b75b434",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "51ff60dc30a7af6efca7a3e5b4b08844f2862f20692be137e26260d48f8ce766"
+}

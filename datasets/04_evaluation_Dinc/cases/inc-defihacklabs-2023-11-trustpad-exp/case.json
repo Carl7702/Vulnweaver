@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2023-11-trustpad-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2023-11/TrustPad_exp.sol",
+  "source_sha256": "9fa3070198aa12d962b64a454e14097dcf600c69bc49fb9f6ef0afe6a2485990",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "trustpad",
+  "attack_family": "signature+deflationary-token+accounting",
+  "incident_month": "2023-11",
+  "fixed_fork_block": 33260104,
+  "attack_tx_hash": "0x191a34e6c0780c3d1ab5c9bc04948e231d742b7d88e0e4f85568d57fcdc03182",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "69467e074a68d9521c0929a62766066d444582f8ea0c6a9ae795e34117bc3f21"
+}

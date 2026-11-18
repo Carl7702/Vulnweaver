@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2024-02-pandora-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2024-02/PANDORA_exp.sol",
+  "source_sha256": "c82b3a4c78ec242ed66b2506a0b9497fadbaf0fc14ccd17bddf2f0fee6381a2b",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "pandora",
+  "attack_family": "overflow+price-manipulation+accounting",
+  "incident_month": "2024-02",
+  "fixed_fork_block": 19184577,
+  "attack_tx_hash": "0x7c5a909b45014e35ddb89697f6be38d08eff30e7c3d3d553033a6efc3b444fdd",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "fa80dfb17b7387300f0e7727481bb899c043aba113b235082a244d4d969bb81f"
+}

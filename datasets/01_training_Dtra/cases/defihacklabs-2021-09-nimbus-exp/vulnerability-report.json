@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-09-nimbus-exp",
+  "source_file": "src/test/2021-09/Nimbus_exp.sol",
+  "source_sha256": "365ec871b6414be54fc288679d81129cfa4b96400d74db3d7d445a680839c178",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-09",
+  "project_id": "nimbus",
+  "attack_family": "price-manipulation+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 13225516
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "5b1f2690de64101896b17d79fb842fa8a4fd1647a5a9141efc401586c3606a2a"
+}

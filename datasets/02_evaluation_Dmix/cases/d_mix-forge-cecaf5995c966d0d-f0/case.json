@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-cecaf5995c966d0d-f0",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/Hacken-Pera Finance.pdf.json",
+  "source_sha256": "f3d9c5b7b4fcea6daa2dcf45d81ca76753fe1452d48b80a6ee3a1ed613395467",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/perafinance/peraplatform",
+  "attack_family": "CWE-284",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity high",
+    "project commit: 2e02b430c7641121e8053cf6718087115a5cf9d5",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "0bdb3d717ca9e238091c1868f1b23ca9f1b5396e338a3e245da7948a21344d14"
+}

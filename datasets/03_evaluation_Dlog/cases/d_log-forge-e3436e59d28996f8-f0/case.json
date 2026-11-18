@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-e3436e59d28996f8-f0",
+  "dataset": "D_log",
+  "source_file": "dataset/results/KickICO.md.json",
+  "source_sha256": "4741692c1e63ce37d4a7b7baeb0506a2ac4aa5b611258d9b98136e2738bcf5a8",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/kickico/contracts",
+  "attack_family": "CWE-1339+CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: abd93bcce948071af24dad4c35439202abf92b7c",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "6afbb1ac2f639fd1b5f2d09b42388a6b8c59fa4a2c6615b9fdd922016ac61629"
+}

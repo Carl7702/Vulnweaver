@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_log-forge-5cf2e3063551b31d-f2",
+  "dataset": "D_log",
+  "source_file": "dataset/results/New_Alchemy_Security_Audit-ICOVO Smart Contract%U00A0Audit.pdf.json",
+  "source_sha256": "f6a51b7801cd8f4e69ffdf7e6e9469f90c94edb38e2066a18f68e322ca36aa66",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/icovo/daicovo",
+  "attack_family": "CWE-190+CWE-682",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 2; severity critical",
+    "project commit: 417b33a6159a21df73221dbdc942cbd73a9c2b06",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "a7bf8d4603b405ab3463a0127c25b96cbf4d531bd3a292c271571ed410f3ee46"
+}

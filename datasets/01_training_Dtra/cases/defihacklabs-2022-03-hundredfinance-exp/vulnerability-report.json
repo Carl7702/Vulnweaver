@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-03-hundredfinance-exp",
+  "source_file": "src/test/2022-03/HundredFinance_exp.sol",
+  "source_sha256": "0c20c431200552e2b4ee877eb0e0652d95a1e7efe8ff00a52474b5537f7ed0ab",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-03",
+  "project_id": "hundredfinance",
+  "attack_family": "reentrancy+flash-loan+accounting",
+  "fork": {
+    "network": "gnosis",
+    "block": 21120319
+  },
+  "attack_tx_hash": "0x534b84f657883ddc1b66a314e8b392feb35024afdec61dfe8e7c510cfac1a098",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "8649bcb372699298ad646ec2ef9a320a572c9abc650669f0c2bae19c35c7925a"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-07-spacegodzilla-exp",
+  "source_file": "src/test/2022-07/SpaceGodzilla_exp.sol",
+  "source_sha256": "ea602edc5bf4b7cd0df75c64f9d9945482c87e3354fbcf78b99f0d30cd088849",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-07",
+  "project_id": "spacegodzilla",
+  "attack_family": "price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 19523980
+  },
+  "attack_tx_hash": "0x7f183df11f1a0225b5eb5bb2296b5dc51c0f3570e8cc15f0754de8e6f8b4cca4",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "e72a5d546b02eeff4ee0e4cdb3f4477bd406681fbbb383200ccc6e96be1f4044"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-03-redactedcartel-exp",
+  "source_file": "src/test/2022-03/RedactedCartel_exp.sol",
+  "source_sha256": "7c13338b2fb17afe19c4c6071906e24878f3d3372fcd575f407c51f4b42d4dab",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-03",
+  "project_id": "redactedcartel",
+  "attack_family": "access-control+approval+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 13908185
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "2057ce353aeda845a785039461a172e1fd41b61afbc865e55f9473e61aef8242"
+}

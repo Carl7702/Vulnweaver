@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2021-06-xwin-exp",
+  "source_file": "src/test/2021-06/xWin_exp.sol",
+  "source_sha256": "0f20938c803ce8f72b246b0635fc8a80348cf4398d07fbcf2b69a5f0c6280985",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2021-06",
+  "project_id": "xwin",
+  "attack_family": "price-manipulation+flash-loan+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 8589725
+  },
+  "attack_tx_hash": "0xba0fa8c150b2408eec9bbbbfe63f9ca63e99f3ff53ac46ee08d691883ac05c1d",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "validation",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "2d3953cd3064008dd77c6b62aee0b28ebe6637f8bb01e3a9755a78f34e84c4d5"
+}

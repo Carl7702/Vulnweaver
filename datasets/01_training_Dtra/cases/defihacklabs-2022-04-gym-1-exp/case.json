@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-04-gym-1-exp",
+  "source_file": "src/test/2022-04/Gym_1_exp.sol",
+  "source_sha256": "65ee71c99bff5876afe1f96a61bfda5fa093a0b3f0e06a8702e41b650d889017",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-04",
+  "project_id": "gym-1",
+  "attack_family": "deflationary-token+accounting",
+  "fork": {
+    "network": "bsc",
+    "block": 16798806
+  },
+  "attack_tx_hash": null,
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [
+    "missing_attack_tx"
+  ],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "073448321ba3ce51850056070a3a5afbd49dee026ac3f80c563c0c771145af90"
+}

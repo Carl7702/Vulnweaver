@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "inc-defihacklabs-2024-04-bnbx-exp",
+  "dataset": "D_inc",
+  "source_file": "src/test/2024-04/BNBX_exp.sol",
+  "source_sha256": "734c11f50f1acc5a2a28bfd5667a9ec33f627c50cde75c7d25f5a0fb811fa6ba",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "project_id": "bnbx",
+  "attack_family": "approval+price-manipulation+accounting",
+  "incident_month": "2024-04",
+  "fixed_fork_block": 38230508,
+  "attack_tx_hash": "0xea88dc6dbd81d09c572b5849e0d4508598edcf8f11c9a995cd8fe7e6c194f39e",
+  "vulnerable_environment": true,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "METADATA_READY",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "held-out DeFiHackLabs candidate",
+    "source PoC remains sealed",
+    "compile, root-cause, and patched replay are pending admission"
+  ],
+  "record_sha256": "17f2c5dfa5b74b8eeb3e4d69f7fc1355c295deb63697732a6f17654939719969"
+}

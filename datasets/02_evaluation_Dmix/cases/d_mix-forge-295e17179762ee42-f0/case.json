@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "record_id": "d_mix-forge-295e17179762ee42-f0",
+  "dataset": "D_mix",
+  "source_file": "dataset/results/NodeDAO-Protocol_202302011759.pdf.json",
+  "source_sha256": "71aaf11f1dc04cf02d45b3e68f3effc6886c589d61f95237674ce324c69ce54c",
+  "source_commit": "76b75824de4ad6c9a0ba592ee0878587d98cb32b",
+  "project_id": "github.com/king-hash-org/nodedao-protocol",
+  "attack_family": "CWE-664+CWE-666",
+  "incident_month": null,
+  "fixed_fork_block": null,
+  "attack_tx_hash": null,
+  "vulnerable_environment": false,
+  "neutralized_environment": false,
+  "patched_environment": false,
+  "manual_reviewed": false,
+  "official_patch_replayed": false,
+  "status": "CANDIDATE",
+  "split": "test",
+  "rejection_reasons": [],
+  "provenance": [
+    "FORGE finding 0; severity critical",
+    "project commit: c97683960416e9ec1501e51a3b89fc97b3c27f40",
+    "CWE/text heuristic preliminary classification; manual review, environment and replay pending"
+  ],
+  "record_sha256": "482b10df125eca22084b4cce4f2ca8c2b1660337c0595e7ff19950de44365620"
+}

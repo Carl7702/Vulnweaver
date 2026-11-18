@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "case_id": "defihacklabs-2022-12-rubic-exp",
+  "source_file": "src/test/2022-12/Rubic_exp.sol",
+  "source_sha256": "2d185816a38a1f511df3473493325a744c3d90cdc553eb96253ba1b2532c3385",
+  "repository": "https://github.com/SunWeb3Sec/DeFiHackLabs.git",
+  "source_commit": "6bbb7b7893d3ccd2ef3d6018d991dc309ccdc281",
+  "incident_month": "2022-12",
+  "project_id": "rubic",
+  "attack_family": "signature+approval+upgrade+accounting",
+  "fork": {
+    "network": "mainnet",
+    "block": 16260580
+  },
+  "attack_tx_hash": "0x9a97d85642f956ad7a6b852cf7bed6f9669e2c2815f3279855acf7f1328e7d46",
+  "status": "METADATA_READY",
+  "rejection_reasons": [],
+  "warnings": [],
+  "split": "train",
+  "reference_poc_sealed": true,
+  "conversion_log": [
+    "source Solidity was inspected for metadata only",
+    "reference PoC remains outside the construction view"
+  ],
+  "candidate_sha256": "4554e08663acbe6f3eefec49dc317c73675f2ef4ae004cc248a929da9abdc9d4"
+}
